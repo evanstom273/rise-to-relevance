@@ -3,9 +3,9 @@
 [ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1_ew5cx"]
 [ext_resource type="Script" uid="uid://dur40byryil5w" path="res://Scripts/Data/PromotionData.gd" id="2_nplb8"]
 [ext_resource type="Script" uid="uid://bsoy7pfr7publ" path="res://Scripts/Data/TitleData.gd" id="3_v4uwx"]
-[ext_resource type="Resource" path="res://Promotions/Indie/Titles/Indie_MAIN_EVENT.tres" id="4_main"]
+[ext_resource type="Resource" uid="uid://doaodav05a1vi" path="res://Promotions/Indie/Titles/Indie_MAIN_EVENT.tres" id="4_main"]
 [ext_resource type="Resource" path="res://Promotions/Indie/Titles/Indie_SINGLES.tres" id="5_singles"]
-[ext_resource type="Resource" path="res://Promotions/Indie/Titles/Indie_WOMENS.tres" id="6_womens"]
+[ext_resource type="Resource" uid="uid://7egj2v4aseug" path="res://Promotions/Indie/Titles/Indie_WOMENS.tres" id="6_womens"]
 
 [resource]
 script = ExtResource("2_nplb8")

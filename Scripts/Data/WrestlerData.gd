@@ -10,6 +10,7 @@ enum Europe_Countries { UK, GERMANY, FRANCE, ITALY, SPAIN, OTHER }
 enum Asia_Countries { JAPAN, CHINA, SOUTH_KOREA, INDIA, OTHER }
 enum Oceania_Countries { AUSTRALIA, NEW_ZEALAND, SAMOA, OTHER }
 enum Africa_Countries { GHANA, NIGERIA, EGYPT, SOUTH_AFRICA, OTHER }
+enum Position { NONE, STANDING, GROUNDED, IN_CORNER, RUNNING, ROPE_REBOUND }
 
 enum WrestlerGender { NONE, MALE, FEMALE }
 enum WrestlerDisposition { NONE, FACE, HEEL }
@@ -84,6 +85,7 @@ enum Division { MAIN_EVENT, SINGLES, WOMENS }
 @export_range(0, 100, 5) var left_leg_hp: float = 100
 @export_range(0, 100, 5) var right_leg_hp: float = 100
 @export_range(0,100, 1) var momentum: float = 0.0
+var position: Position = Position.NONE
 
 # --- Moveset ---
 @export_group("Moveset")
