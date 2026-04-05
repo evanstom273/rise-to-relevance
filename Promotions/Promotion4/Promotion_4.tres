@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="PromotionResource" format=3]
+
+[ext_resource type="Script" path="res://Scripts/Data/PromotionData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+promotion_name = "Promotion4"
+promotion_id = 4
+is_indie = false

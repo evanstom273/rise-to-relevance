@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="PromotionResource" format=3 uid="uid://bc33we2gt8o0k"]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1_ew5cx"]
+[ext_resource type="Script" uid="uid://dur40byryil5w" path="res://Scripts/Data/PromotionData.gd" id="2_nplb8"]
+[ext_resource type="Script" uid="uid://bsoy7pfr7publ" path="res://Scripts/Data/TitleData.gd" id="3_v4uwx"]
+
+[resource]
+script = ExtResource("2_nplb8")
+promotion_name = ""
+metadata/_custom_type_script = "uid://dur40byryil5w"

@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://dx88nffu8c6pm"]
 
-[ext_resource type="Script" uid="uid://dur40byryil5w" path="res://Scripts/Data/PromotionData.gd" id="1_duss8"]
 [ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1_m87d5"]
 [ext_resource type="Script" uid="uid://7hab2jqqst0c" path="res://Scripts/Data/ContractData.gd" id="2_gm7hk"]
 [ext_resource type="Script" uid="uid://dsl2sqtwrkuos" path="res://Scripts/Data/MoveData.gd" id="3_gm7hk"]
+[ext_resource type="Script" uid="uid://c0ind1qu7jee8" path="res://Scripts/Data/TraitData.gd" id="5_at4ql"]
 
 [resource]
 script = ExtResource("1_m87d5")
