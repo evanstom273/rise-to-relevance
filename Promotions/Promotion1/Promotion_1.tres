@@ -3,8 +3,12 @@
 [ext_resource type="Script" uid="uid://dur40byryil5w" path="res://Scripts/Data/PromotionData.gd" id="1"]
 [ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1_b16yc"]
 [ext_resource type="Script" uid="uid://bsoy7pfr7publ" path="res://Scripts/Data/TitleData.gd" id="3_rhm2u"]
+[ext_resource type="Resource" path="res://Promotions/Promotion1/Titles/Promotion1_MAIN_EVENT.tres" id="4_main"]
+[ext_resource type="Resource" path="res://Promotions/Promotion1/Titles/Promotion1_SINGLES.tres" id="5_singles"]
+[ext_resource type="Resource" path="res://Promotions/Promotion1/Titles/Promotion1_WOMENS.tres" id="6_womens"]
 
 [resource]
 script = ExtResource("1")
 promotion_name = "Promotion1"
-promotion_id = 1
+promotion_id = 2
+titles = Array[ExtResource("3_rhm2u")]([ExtResource("4_main"), ExtResource("5_singles"), ExtResource("6_womens")])

@@ -1,9 +1,14 @@
 [gd_resource type="Resource" script_class="PromotionResource" format=3]
 
 [ext_resource type="Script" path="res://Scripts/Data/PromotionData.gd" id="1"]
+[ext_resource type="Script" path="res://Scripts/Data/TitleData.gd" id="2_title_script"]
+[ext_resource type="Resource" path="res://Promotions/Promotion8/Titles/Promotion8_MAIN_EVENT.tres" id="4_main"]
+[ext_resource type="Resource" path="res://Promotions/Promotion8/Titles/Promotion8_SINGLES.tres" id="5_singles"]
+[ext_resource type="Resource" path="res://Promotions/Promotion8/Titles/Promotion8_WOMENS.tres" id="6_womens"]
 
 [resource]
 script = ExtResource("1")
 promotion_name = "Promotion8"
-promotion_id = 8
+promotion_id = 9
 is_indie = false
+titles = Array[ExtResource("2_title_script")]([ExtResource("4_main"), ExtResource("5_singles"), ExtResource("6_womens")])

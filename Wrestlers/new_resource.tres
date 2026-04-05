@@ -5,7 +5,12 @@
 [ext_resource type="Script" uid="uid://dsl2sqtwrkuos" path="res://Scripts/Data/MoveData.gd" id="3_gm7hk"]
 [ext_resource type="Script" uid="uid://c0ind1qu7jee8" path="res://Scripts/Data/TraitData.gd" id="5_at4ql"]
 
+[sub_resource type="Resource" id="Resource_gm7hk"]
+script = ExtResource("5_at4ql")
+metadata/_custom_type_script = "uid://c0ind1qu7jee8"
+
 [resource]
 script = ExtResource("1_m87d5")
 wrestler_name = null
+wrestler_traits = Array[ExtResource("5_at4ql")]([SubResource("Resource_gm7hk")])
 metadata/_custom_type_script = "uid://dwj45ptt6d1qp"
