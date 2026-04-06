@@ -42,14 +42,14 @@ enum Africa_Countries { GHANA, NIGERIA, EGYPT, SOUTH_AFRICA, OTHER }
      get:
         return roundi((
             pop_north_america
-            + pop_latin_america
+            + pop_south_america
             + pop_europe
             + pop_asia
             + pop_africa
             + pop_oceania
         ) / 6.0)
 @export_range(0, 100, 5) var pop_north_america: float = 0
-@export_range(0, 100, 5) var pop_latin_america: float = 0
+@export_range(0, 100, 5) var pop_south_america: float = 0
 @export_range(0, 100, 5) var pop_europe: float = 0
 @export_range(0, 100, 5) var pop_asia: float = 0
 @export_range(0, 100, 5) var pop_africa: float = 0

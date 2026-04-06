@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://dsxryoagd0g47"]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+[ext_resource type="Script" uid="uid://7hab2jqqst0c" path="res://Scripts/Data/ContractData.gd" id="1_q1d07"]
+[ext_resource type="Script" uid="uid://dsl2sqtwrkuos" path="res://Scripts/Data/MoveData.gd" id="2_thshx"]
+[ext_resource type="Script" uid="uid://c0ind1qu7jee8" path="res://Scripts/Data/TraitData.gd" id="4_4vi7a"]
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Dez Raines"
+gimmick_name = "Street Thug"
+gimmick_description = "Hardened brawler"
+wrestler_id = 1027
+wrestler_class = Array[int]([4, 3])
+wrestler_division = 1
+wrestler_disposition = 2
+Age = 36
+wrestler_height = "6'3\""
+wrestler_weight = 250
+birthplace = 1
+north_american_country = 0
+strength = 70.0
+speed = 45.0
+stamina = 65.0
+skill = 50.0
+striking = 75.0
+charisma = 65.0
+global_popularity = 37.0
+pop_north_america = 64.0
+pop_europe = 55.0
+pop_asia = 35.0
+pop_africa = 30.0
+pop_oceania = 40.0
+metadata/_custom_type_script = "uid://dwj45ptt6d1qp"

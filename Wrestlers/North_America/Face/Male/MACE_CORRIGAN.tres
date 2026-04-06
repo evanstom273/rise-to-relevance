@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://yw6j8mlugofs"]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Mace Corrigan"
+gimmick_name = "The Power Giant"
+gimmick_description = "Mountainous powerhouse"
+wrestler_id = 1005
+wrestler_class = Array[int]([1])
+wrestler_gender = 1
+wrestler_division = 0
+wrestler_disposition = 1
+Age = 33
+wrestler_height = "6'9\""
+wrestler_weight = 320
+birthplace = 1
+north_american_country = 0
+strength = 85.0
+speed = 35.0
+stamina = 55.0
+skill = 45.0
+striking = 65.0
+charisma = 70.0
+pop_north_america = 82.0
+pop_latin_america = 40.0
+pop_europe = 45.0
+pop_asia = 35.0
+pop_africa = 35.0
+pop_oceania = 40.0
+metadata/_custom_type_script = "uid://dwj45ptt6d1qp"
+

@@ -1,0 +1,1524 @@
+[gd_scene format=3 uid="uid://da5tbpp5cj2n4"]
+
+[ext_resource type="StyleBox" uid="uid://bppp0is500y8m" path="res://UI/Themes/Theme1.tres" id="1_wjc8d"]
+[ext_resource type="Resource" uid="uid://dsxryoagd0g47" path="res://Wrestlers/North_America/Heel/Male/DEZ_RAINES.tres" id="2_dlk5x"]
+[ext_resource type="Resource" uid="uid://c2rs1ohbxlplp" path="res://Wrestlers/Asia/Face/Male/KENJI_MORI.tres" id="3_dlk5x"]
+[ext_resource type="Script" uid="uid://c3avv2lkprr8o" path="res://Scripts/Match/match_screen.gd" id="3_match_screen"]
+
+[sub_resource type="Gradient" id="Gradient_o3qbn"]
+colors = PackedColorArray(0.4768256, 0, 0, 0.39215687, 0, 0, 0.42688203, 0.39215687)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_lc1oi"]
+noise_type = 3
+seed = 1
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_8od7v"]
+noise = SubResource("FastNoiseLite_lc1oi")
+color_ramp = SubResource("Gradient_o3qbn")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6fv0a"]
+bg_color = Color(0.19793725, 0.19793722, 0.19793722, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.92156863, 0.2901961, 0.2901961, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+corner_detail = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dlk5x"]
+bg_color = Color(0.19793725, 0.19793722, 0.19793722, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.92156863, 0.2901961, 0.2901961, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+corner_detail = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_586x1"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.92156863, 0.2901961, 0.2901961, 0.55)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e1uqs"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.92156863, 0.2901961, 0.2901961, 0.55)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ubkw1"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.92156863, 0.2901961, 0.2901961, 0.55)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8suub"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.92156863, 0.2901961, 0.2901961, 0.55)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wj8k0"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.92156863, 0.2901961, 0.2901961, 0.55)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_a3uka"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.92156863, 0.2901961, 0.2901961, 0.55)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_01tqx"]
+bg_color = Color(0.19793725, 0.19793722, 0.19793722, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.92156863, 0.2901961, 0.2901961, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+corner_detail = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_thukj"]
+bg_color = Color(0.19793725, 0.19793722, 0.19793722, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.2509804, 0.6392157, 1, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+corner_detail = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p6ish"]
+bg_color = Color(0.19793725, 0.19793722, 0.19793722, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.2509804, 0.6392157, 1, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+corner_detail = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w6ong"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.2509804, 0.6392157, 1, 0.55)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n3hho"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.2509804, 0.6392157, 1, 0.55)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3c6mr"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.2509804, 0.6392157, 1, 0.55)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q6u8m"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.2509804, 0.6392157, 1, 0.55)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pjg8p"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.2509804, 0.6392157, 1, 0.55)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tecct"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.2509804, 0.6392157, 1, 0.55)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4r8o7"]
+bg_color = Color(0.19793725, 0.19793722, 0.19793722, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.2509804, 0.6392157, 1, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+corner_detail = 20
+
+[node name="Control" type="Control" unique_id=811586820]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("3_match_screen")
+player_wrestler = ExtResource("2_dlk5x")
+opponent_wrestler = ExtResource("3_dlk5x")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=428488866]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("NoiseTexture2D_8od7v")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1681494235]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = 16.0
+offset_right = -16.0
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer" unique_id=249505197]
+layout_mode = 2
+
+[node name="PlayerInfo" type="PanelContainer" parent="MarginContainer/HBoxContainer" unique_id=767813093]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/panel = ExtResource("1_wjc8d")
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/HBoxContainer/PlayerInfo" unique_id=2054195708]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer" unique_id=1755869725]
+layout_mode = 2
+
+[node name="PlayerNameBox" type="PanelContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer" unique_id=1309976722]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.15
+theme_override_styles/panel = SubResource("StyleBoxFlat_6fv0a")
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerNameBox" unique_id=1698460791]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerNameBox/MarginContainer" unique_id=1371574047]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerNameBox/MarginContainer/HBoxContainer" unique_id=2023599525]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="PlayerName" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerNameBox/MarginContainer/HBoxContainer/VBoxContainer" unique_id=1662722804]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 1.2
+theme_override_colors/font_color = Color(0.92156863, 0.2901961, 0.2901961, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/font_size = 20
+text = "(h) DEZ RAINES"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerNameBox/MarginContainer/HBoxContainer/VBoxContainer" unique_id=670431717]
+layout_mode = 2
+
+[node name="VSeparator2" type="VSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerNameBox/MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer" unique_id=1099001779]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="PlayerClass" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerNameBox/MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer" unique_id=916092364]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "Hardcore/Striker"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="Divider" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerNameBox/MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer" unique_id=1469649995]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "/"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="PlayerGender" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerNameBox/MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer" unique_id=1664885529]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "Male"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="Divider2" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerNameBox/MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer" unique_id=1561933478]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "/"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="PlayerPromotion" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerNameBox/MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer" unique_id=716356207]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "VWF"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="VSeparator3" type="VSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerNameBox/MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer" unique_id=1684861471]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer" unique_id=1747754574]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="PlayerStatsBox" type="PanelContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer" unique_id=92384016]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_dlk5x")
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox" unique_id=1621995797]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer" unique_id=1843152659]
+layout_mode = 2
+
+[node name="PlayerStats" type="VBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer" unique_id=193156627]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats" unique_id=761064030]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer" unique_id=982888059]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Gimmick" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2" unique_id=175055623]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="PlayerGimmickLabel" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2/Gimmick" unique_id=985210142]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Gimmick:"
+uppercase = true
+
+[node name="PlayerGimmick" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2/Gimmick" unique_id=1973173019]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "Street Thug"
+uppercase = true
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2" unique_id=1096401423]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="GimmickDescription" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2" unique_id=1492680819]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="PlayerGimmickDescription" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2/GimmickDescription" unique_id=807722446]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = " - Hardened brawler"
+autowrap_mode = 3
+uppercase = true
+
+[node name="HSeparator2" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2" unique_id=80594486]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Region" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2" unique_id=87184768]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="PlayerRegionLabel" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2/Region" unique_id=2062860567]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Region:"
+uppercase = true
+
+[node name="PlayerRegion" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2/Region" unique_id=21991801]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "North America"
+uppercase = true
+
+[node name="HSeparator3" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2" unique_id=742082520]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Country" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2" unique_id=2060693844]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="PlayerCountryLabel" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2/Country" unique_id=1031071160]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Country:"
+uppercase = true
+
+[node name="PlayerCountry" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2/Country" unique_id=1062134606]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "Usa"
+uppercase = true
+
+[node name="HSeparator4" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2" unique_id=795896380]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Height" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2" unique_id=1385257215]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="PlayerHeightLabel" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2/Height" unique_id=2011809486]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Height:"
+uppercase = true
+
+[node name="PlayerHeight" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2/Height" unique_id=396490002]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "6'3\""
+uppercase = true
+
+[node name="HSeparator5" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2" unique_id=429399174]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Weight" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2" unique_id=839291072]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="PlayerWeightLabel" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2/Weight" unique_id=2003169387]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Weight:"
+uppercase = true
+
+[node name="PlayerWeight" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2/Weight" unique_id=1570582699]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "250lbs"
+uppercase = true
+
+[node name="VSeparator" type="VSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer" unique_id=1372358478]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.15
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer" unique_id=11006942]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.7
+
+[node name="Strength" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer" unique_id=756020813]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="PlayerStrengthLabel" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer/Strength" unique_id=1101418512]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Strength:"
+uppercase = true
+
+[node name="PlayerStrengthValue" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer/Strength" unique_id=1867211905]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "70.0"
+uppercase = true
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer" unique_id=319021685]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Speed" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer" unique_id=1185581797]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="PlayerSpeedLabel" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer/Speed" unique_id=805045496]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Speed:"
+uppercase = true
+
+[node name="PlayerSpeedValue" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer/Speed" unique_id=1244082626]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "45.0"
+uppercase = true
+
+[node name="HSeparator2" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer" unique_id=1371337624]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Stamina" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer" unique_id=1274129606]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="PlayerStaminaLabel" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer/Stamina" unique_id=1545109013]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Stamina:"
+uppercase = true
+
+[node name="PlayerStaminaValue" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer/Stamina" unique_id=1402338183]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "65.0"
+uppercase = true
+
+[node name="HSeparator3" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer" unique_id=1231742538]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Striking" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer" unique_id=1945388803]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="PlayerStrikingLabel" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer/Striking" unique_id=43340183]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Striking:"
+uppercase = true
+
+[node name="PlayerStrikingValue" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer/Striking" unique_id=1500398184]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "75.0"
+uppercase = true
+
+[node name="HSeparator4" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer" unique_id=2105942003]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Skill" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer" unique_id=693019800]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="PlayerSkillLabel" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer/Skill" unique_id=1778877262]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Skill:"
+uppercase = true
+
+[node name="PlayerSkillValue" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer/Skill" unique_id=597121817]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "50.0"
+uppercase = true
+
+[node name="HSeparator5" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer" unique_id=128704463]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Charisma" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer" unique_id=585472594]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="PlayerCharismaLabel" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer/Charisma" unique_id=680818759]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Charisma:"
+uppercase = true
+
+[node name="PlayerCharismaValue" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer/Charisma" unique_id=1943486687]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "65.0"
+uppercase = true
+
+[node name="HSeparator6" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer" unique_id=1853115701]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Age" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer" unique_id=347006914]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="PlayerAgeLabel" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer/Age" unique_id=403630269]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Age:"
+uppercase = true
+
+[node name="PlayerAgeValue" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer/Age" unique_id=607987244]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "36"
+uppercase = true
+
+[node name="HSeparator3" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer" unique_id=641594765]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="PlayerHealth" type="VBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer" unique_id=1284613645]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth" unique_id=1290723595]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer" unique_id=1840245326]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Head" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer" unique_id=1903485167]
+layout_mode = 2
+text = "Head: "
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer" unique_id=267560679]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Body" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer" unique_id=1306724261]
+layout_mode = 2
+text = "Body: "
+
+[node name="HSeparator2" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer" unique_id=419292894]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Left_Arm" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer" unique_id=602929325]
+layout_mode = 2
+text = "Left Arm:"
+
+[node name="HSeparator3" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer" unique_id=952341556]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Right_Arm" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer" unique_id=1748896754]
+layout_mode = 2
+text = "Right Arm:"
+
+[node name="HSeparator4" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer" unique_id=1737194146]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Left_Leg" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer" unique_id=38072437]
+layout_mode = 2
+text = "Left Leg:"
+
+[node name="HSeparator5" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer" unique_id=284621641]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Right_Leg" type="Label" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer" unique_id=1749619900]
+layout_mode = 2
+text = "Right Leg:"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer" unique_id=795998510]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 5.0
+
+[node name="PlayerHeadBar" type="ProgressBar" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer2" unique_id=711110489]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 2
+theme_override_styles/fill = SubResource("StyleBoxFlat_586x1")
+step = 1.0
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer2" unique_id=172518060]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="PlayerBodyBar" type="ProgressBar" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer2" unique_id=1090134994]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 2
+theme_override_styles/fill = SubResource("StyleBoxFlat_e1uqs")
+step = 1.0
+
+[node name="HSeparator2" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer2" unique_id=1542435435]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="PlayerLeftArmBar" type="ProgressBar" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer2" unique_id=1158733733]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 2
+theme_override_styles/fill = SubResource("StyleBoxFlat_ubkw1")
+step = 1.0
+
+[node name="HSeparator3" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer2" unique_id=1749652654]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="PlayerRightArmBar" type="ProgressBar" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer2" unique_id=509850472]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 2
+theme_override_styles/fill = SubResource("StyleBoxFlat_8suub")
+step = 1.0
+
+[node name="HSeparator4" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer2" unique_id=234845854]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="PlayerLeftLegBar" type="ProgressBar" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer2" unique_id=944909955]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 2
+theme_override_styles/fill = SubResource("StyleBoxFlat_wj8k0")
+step = 1.0
+
+[node name="HSeparator5" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer2" unique_id=687041555]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="PlayerRightLegBar" type="ProgressBar" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerHealth/HBoxContainer/VBoxContainer2" unique_id=1854111460]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 2
+theme_override_styles/fill = SubResource("StyleBoxFlat_a3uka")
+step = 1.0
+
+[node name="HSeparator2" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer" unique_id=1199613922]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="PlayerMovesetBox" type="PanelContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer" unique_id=1964097691]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 1.57
+theme_override_styles/panel = SubResource("StyleBoxFlat_01tqx")
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerMovesetBox" unique_id=988870104]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="VSeparator" type="VSeparator" parent="MarginContainer/HBoxContainer" unique_id=521126768]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer" unique_id=1571731648]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="PanelContainer2" type="PanelContainer" parent="MarginContainer/HBoxContainer/VBoxContainer" unique_id=1036787106]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.25
+theme_override_styles/panel = ExtResource("1_wjc8d")
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/HBoxContainer/VBoxContainer/PanelContainer2" unique_id=223191687]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/HBoxContainer/VBoxContainer" unique_id=303034364]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="PanelContainer3" type="PanelContainer" parent="MarginContainer/HBoxContainer/VBoxContainer" unique_id=871193373]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = ExtResource("1_wjc8d")
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/HBoxContainer/VBoxContainer/PanelContainer3" unique_id=1143400785]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="VSeparator2" type="VSeparator" parent="MarginContainer/HBoxContainer" unique_id=625009621]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="OpponentInfo" type="PanelContainer" parent="MarginContainer/HBoxContainer" unique_id=1298286587]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/panel = ExtResource("1_wjc8d")
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/HBoxContainer/OpponentInfo" unique_id=754480756]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer" unique_id=1234908867]
+layout_mode = 2
+
+[node name="OpponentNameBox" type="PanelContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer" unique_id=1822441737]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.15
+theme_override_styles/panel = SubResource("StyleBoxFlat_thukj")
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentNameBox" unique_id=1283872133]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentNameBox/MarginContainer" unique_id=1426976246]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentNameBox/MarginContainer/HBoxContainer" unique_id=696274176]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="OpponentName" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentNameBox/MarginContainer/HBoxContainer/VBoxContainer" unique_id=702538682]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 1.2
+theme_override_colors/font_color = Color(0.2509804, 0.6392157, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/font_size = 20
+text = "(f) KENJI MORI"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentNameBox/MarginContainer/HBoxContainer/VBoxContainer" unique_id=357004504]
+layout_mode = 2
+
+[node name="VSeparator2" type="VSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentNameBox/MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer" unique_id=1357343335]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="OpponentClass" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentNameBox/MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer" unique_id=591674397]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "Striker"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="Divider" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentNameBox/MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer" unique_id=443130685]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "/"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="OpponentGender" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentNameBox/MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer" unique_id=504165477]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "Male"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="Divider2" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentNameBox/MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer" unique_id=1286175138]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "/"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="OpponentPromotion" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentNameBox/MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer" unique_id=686135638]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "VWF"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="VSeparator3" type="VSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentNameBox/MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer" unique_id=422405841]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer" unique_id=859226420]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="OpponentStatsBox" type="PanelContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer" unique_id=288112023]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_p6ish")
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox" unique_id=660680874]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer" unique_id=1409299030]
+layout_mode = 2
+
+[node name="OpponentStats" type="VBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer" unique_id=398381659]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats" unique_id=151152716]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer" unique_id=1314759792]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Gimmick" type="HBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2" unique_id=9948910]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="OpponentGimmickLabel" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2/Gimmick" unique_id=1868916122]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Gimmick:"
+uppercase = true
+
+[node name="OpponentGimmick" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2/Gimmick" unique_id=1039175888]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "Disciplined Striker"
+uppercase = true
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2" unique_id=1762087394]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="GimmickDescription" type="HBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2" unique_id=343536262]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="OpponentGimmickDescription" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2/GimmickDescription" unique_id=199202937]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = " - Martial arts specialist"
+autowrap_mode = 3
+uppercase = true
+
+[node name="HSeparator2" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2" unique_id=2099393106]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Region" type="HBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2" unique_id=82014157]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="OpponentRegionLabel" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2/Region" unique_id=1492028311]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Region:"
+uppercase = true
+
+[node name="OpponentRegion" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2/Region" unique_id=1498836130]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "Asia"
+uppercase = true
+
+[node name="HSeparator3" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2" unique_id=787389421]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Country" type="HBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2" unique_id=883755006]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="OpponentCountryLabel" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2/Country" unique_id=1299381974]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Country:"
+uppercase = true
+
+[node name="OpponentCountry" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2/Country" unique_id=179752639]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "Japan"
+uppercase = true
+
+[node name="HSeparator4" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2" unique_id=1334329780]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Height" type="HBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2" unique_id=1835762737]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="OpponentHeightLabel" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2/Height" unique_id=1969203262]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Height:"
+uppercase = true
+
+[node name="OpponentHeight" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2/Height" unique_id=2037290599]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "6'0\""
+uppercase = true
+
+[node name="HSeparator5" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2" unique_id=759375236]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Weight" type="HBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2" unique_id=1061139198]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="OpponentWeightLabel" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2/Weight" unique_id=1017997979]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Weight:"
+uppercase = true
+
+[node name="OpponentWeight" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2/Weight" unique_id=1006705109]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "205lbs"
+uppercase = true
+
+[node name="VSeparator" type="VSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer" unique_id=649496080]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.15
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer" unique_id=1391934679]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.7
+
+[node name="Strength" type="HBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer" unique_id=989172590]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="OpponentStrengthLabel" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer/Strength" unique_id=1757686378]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Strength:"
+uppercase = true
+
+[node name="OpponentStrengthValue" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer/Strength" unique_id=1043779767]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "62.0"
+uppercase = true
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer" unique_id=771069613]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Speed" type="HBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer" unique_id=710034319]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="OpponentSpeedLabel" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer/Speed" unique_id=459917261]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Speed:"
+uppercase = true
+
+[node name="OpponentSpeedValue" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer/Speed" unique_id=1443692047]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "60.0"
+uppercase = true
+
+[node name="HSeparator2" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer" unique_id=398556471]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Stamina" type="HBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer" unique_id=1798900896]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="OpponentStaminaLabel" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer/Stamina" unique_id=490666966]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Stamina:"
+uppercase = true
+
+[node name="OpponentStaminaValue" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer/Stamina" unique_id=1909034540]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "60.0"
+uppercase = true
+
+[node name="HSeparator3" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer" unique_id=235501432]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Striking" type="HBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer" unique_id=2061910937]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="OpponentStrikingLabel" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer/Striking" unique_id=2145001648]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Striking:"
+uppercase = true
+
+[node name="OpponentStrikingValue" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer/Striking" unique_id=1475559345]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "75.0"
+uppercase = true
+
+[node name="HSeparator4" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer" unique_id=1698423609]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Skill" type="HBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer" unique_id=647793724]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="OpponentSkillLabel" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer/Skill" unique_id=359470005]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Skill:"
+uppercase = true
+
+[node name="OpponentSkillValue" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer/Skill" unique_id=2039578221]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "50.0"
+uppercase = true
+
+[node name="HSeparator5" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer" unique_id=1528806649]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Charisma" type="HBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer" unique_id=1261462599]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="OpponentCharismaLabel" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer/Charisma" unique_id=734219462]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Charisma:"
+uppercase = true
+
+[node name="OpponentCharismaValue" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer/Charisma" unique_id=1038912313]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "55.0"
+uppercase = true
+
+[node name="HSeparator6" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer" unique_id=508612841]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Age" type="HBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer" unique_id=1650682639]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="OpponentAgeLabel" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer/Age" unique_id=584153597]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.72, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "Age:"
+uppercase = true
+
+[node name="OpponentAgeValue" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer/Age" unique_id=31209088]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 15
+text = "30"
+uppercase = true
+
+[node name="HSeparator3" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer" unique_id=2085932781]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="OpponentHealth" type="VBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer" unique_id=775119267]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth" unique_id=1923392087]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer" unique_id=1544886979]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Head" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer" unique_id=1035915045]
+layout_mode = 2
+text = "Head: "
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer" unique_id=2112196102]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Body" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer" unique_id=1708771672]
+layout_mode = 2
+text = "Body: "
+
+[node name="HSeparator2" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer" unique_id=263893554]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Left_Arm" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer" unique_id=1921074476]
+layout_mode = 2
+text = "Left Arm:"
+
+[node name="HSeparator3" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer" unique_id=510292588]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Right_Arm" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer" unique_id=872734407]
+layout_mode = 2
+text = "Right Arm:"
+
+[node name="HSeparator4" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer" unique_id=263108663]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Left_Leg" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer" unique_id=1275813816]
+layout_mode = 2
+text = "Left Leg:"
+
+[node name="HSeparator5" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer" unique_id=1099036148]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="Right_Leg" type="Label" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer" unique_id=523530147]
+layout_mode = 2
+text = "Right Leg:"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer" unique_id=730189675]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 5.0
+
+[node name="OpponentHeadBar" type="ProgressBar" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer2" unique_id=90072805]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 2
+theme_override_styles/fill = SubResource("StyleBoxFlat_w6ong")
+step = 1.0
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer2" unique_id=350138109]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="OpponentBodyBar" type="ProgressBar" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer2" unique_id=570733369]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 2
+theme_override_styles/fill = SubResource("StyleBoxFlat_n3hho")
+step = 1.0
+
+[node name="HSeparator2" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer2" unique_id=2007827437]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="OpponentLeftArmBar" type="ProgressBar" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer2" unique_id=1664538434]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 2
+theme_override_styles/fill = SubResource("StyleBoxFlat_3c6mr")
+step = 1.0
+
+[node name="HSeparator3" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer2" unique_id=1189432054]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="OpponentRightArmBar" type="ProgressBar" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer2" unique_id=998455131]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 2
+theme_override_styles/fill = SubResource("StyleBoxFlat_q6u8m")
+step = 1.0
+
+[node name="HSeparator4" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer2" unique_id=1464921239]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="OpponentLeftLegBar" type="ProgressBar" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer2" unique_id=949811254]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 2
+theme_override_styles/fill = SubResource("StyleBoxFlat_pjg8p")
+step = 1.0
+
+[node name="HSeparator5" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer2" unique_id=1589402878]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="OpponentRightLegBar" type="ProgressBar" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentHealth/HBoxContainer/VBoxContainer2" unique_id=1327698613]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 2
+theme_override_styles/fill = SubResource("StyleBoxFlat_tecct")
+step = 1.0
+
+[node name="HSeparator2" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer" unique_id=1881345705]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="OpponentMovesetBox" type="PanelContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer" unique_id=2127091090]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_4r8o7")
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentMovesetBox" unique_id=1897307183]
+layout_mode = 2
+size_flags_stretch_ratio = 1.57
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16

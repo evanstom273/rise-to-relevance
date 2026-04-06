@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://m17uosesftd4"]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Dana Mercer"
+gimmick_name = "Second-Gen Prodigy"
+gimmick_description = "Skilled daughter of a legend"
+wrestler_id = 1032
+wrestler_class = Array[int]([2, 3])
+wrestler_gender = 2
+wrestler_division = 2
+wrestler_disposition = 1
+Age = 23
+wrestler_height = "5'8\""
+wrestler_weight = 145
+birthplace = 1
+north_american_country = 0
+strength = 55.0
+speed = 60.0
+stamina = 70.0
+skill = 65.0
+striking = 60.0
+charisma = 65.0
+pop_north_america = 68.0
+pop_latin_america = 40.0
+pop_europe = 45.0
+pop_asia = 35.0
+pop_africa = 20.0
+pop_oceania = 40.0
+metadata/_custom_type_script = "uid://dwj45ptt6d1qp"
+

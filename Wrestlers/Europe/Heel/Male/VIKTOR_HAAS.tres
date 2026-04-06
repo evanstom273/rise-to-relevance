@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://b6c1udnyg2r3t"]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Viktor Haas"
+gimmick_name = "Submission Snake"
+gimmick_description = "Sinister mat technician"
+wrestler_id = 1024
+wrestler_class = Array[int]([2])
+wrestler_gender = 1
+wrestler_division = 1
+wrestler_disposition = 2
+Age = 33
+wrestler_height = "6'0\""
+wrestler_weight = 210
+birthplace = 6
+europe_country = 1
+strength = 50.0
+speed = 60.0
+stamina = 75.0
+skill = 75.0
+striking = 55.0
+charisma = 60.0
+pop_north_america = 56.0
+pop_latin_america = 45.0
+pop_europe = 65.0
+pop_asia = 55.0
+pop_africa = 35.0
+pop_oceania = 45.0
+metadata/_custom_type_script = "uid://dwj45ptt6d1qp"
+

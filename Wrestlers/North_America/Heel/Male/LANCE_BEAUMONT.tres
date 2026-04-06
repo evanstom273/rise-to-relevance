@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://b3j2hde74akbr"]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+[ext_resource type="Script" uid="uid://7hab2jqqst0c" path="res://Scripts/Data/ContractData.gd" id="1_p5tlu"]
+[ext_resource type="Script" uid="uid://dsl2sqtwrkuos" path="res://Scripts/Data/MoveData.gd" id="2_o1f2w"]
+[ext_resource type="Script" uid="uid://c0ind1qu7jee8" path="res://Scripts/Data/TraitData.gd" id="4_d2lyk"]
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Lance Beaumont"
+gimmick_name = "Narcissist"
+gimmick_description = "Vain, self-obsessed star"
+wrestler_id = 1028
+wrestler_class = Array[int]([2])
+wrestler_division = 1
+wrestler_disposition = 2
+Age = 26
+wrestler_height = "6'1\""
+wrestler_weight = 205
+birthplace = 1
+north_american_country = 0
+strength = 45.0
+speed = 70.0
+stamina = 60.0
+skill = 65.0
+striking = 45.0
+charisma = 75.0
+global_popularity = 36.0
+pop_north_america = 58.0
+pop_europe = 50.0
+pop_asia = 40.0
+pop_africa = 25.0
+pop_oceania = 45.0
+metadata/_custom_type_script = "uid://dwj45ptt6d1qp"

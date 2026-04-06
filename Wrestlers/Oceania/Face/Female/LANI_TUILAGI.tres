@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://vy31swvpc8is"]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Lani Tuilagi"
+gimmick_name = "Powerhouse Powerlifter"
+gimmick_description = "Strong athletic brute"
+wrestler_id = 1031
+wrestler_class = Array[int]([1])
+wrestler_gender = 2
+wrestler_division = 2
+wrestler_disposition = 1
+Age = 28
+wrestler_height = "5'10\""
+wrestler_weight = 180
+birthplace = 5
+oceania_country = 2
+strength = 78.0
+speed = 40.0
+stamina = 65.0
+skill = 45.0
+striking = 60.0
+charisma = 55.0
+pop_north_america = 55.0
+pop_latin_america = 35.0
+pop_europe = 40.0
+pop_asia = 25.0
+pop_africa = 30.0
+pop_oceania = 30.0
+metadata/_custom_type_script = "uid://dwj45ptt6d1qp"
+

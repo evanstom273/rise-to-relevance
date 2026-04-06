@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://bh220wqaygr1m"]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Weston Holt"
+gimmick_name = "Entitled Legacy"
+gimmick_description = "Arrogant second-gen heel"
+wrestler_id = 1021
+wrestler_class = Array[int]([2])
+wrestler_gender = 1
+wrestler_division = 1
+wrestler_disposition = 2
+Age = 24
+wrestler_height = "6'1\""
+wrestler_weight = 210
+birthplace = 1
+north_american_country = 0
+strength = 45.0
+speed = 65.0
+stamina = 60.0
+skill = 65.0
+striking = 45.0
+charisma = 75.0
+pop_north_america = 62.0
+pop_latin_america = 40.0
+pop_europe = 45.0
+pop_asia = 30.0
+pop_africa = 25.0
+pop_oceania = 40.0
+metadata/_custom_type_script = "uid://dwj45ptt6d1qp"
+

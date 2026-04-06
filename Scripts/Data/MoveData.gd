@@ -21,6 +21,7 @@ enum StrikeWeight { STRIKE_WEAK,
 @export_group("Move Info")
 @export var move_name: String = ""
 @export var move_type: MoveType = MoveType.NONE
+@export var class_preferrence: Array[WrestlerResource.WrestlerClass]
 @export var move_target_parts: Array[MoveTargetParts] = []
 @export var required_attacker_position: WrestlerResource.Position
 @export var required_target_position: WrestlerResource.Position

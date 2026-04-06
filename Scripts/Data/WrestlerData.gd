@@ -20,6 +20,8 @@ enum Division { MAIN_EVENT, SINGLES, WOMENS }
 
 @export_group("Personal Info")
 @export var wrestler_name = str("")
+@export var gimmick_name: String = ""
+@export var gimmick_description: String = ""
 @export var wrestler_id: int = 0
 @export var wrestler_class: Array[WrestlerClass] = []
 @export var wrestler_gender = WrestlerGender.MALE
@@ -63,14 +65,14 @@ enum Division { MAIN_EVENT, SINGLES, WOMENS }
      get:
         return roundi((
             pop_north_america
-            + pop_latin_america
+            + pop_south_america
             + pop_europe
             + pop_asia
             + pop_africa
             + pop_oceania
         ) / 6.0)
 @export_range(0, 100, 5) var pop_north_america: float = 0
-@export_range(0, 100, 5) var pop_latin_america: float = 0
+@export_range(0, 100, 5) var pop_south_america: float = 0
 @export_range(0, 100, 5) var pop_europe: float = 0
 @export_range(0, 100, 5) var pop_asia: float = 0
 @export_range(0, 100, 5) var pop_africa: float = 0

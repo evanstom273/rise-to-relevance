@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://b24lw2ryn51wp"]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+[ext_resource type="Script" uid="uid://7hab2jqqst0c" path="res://Scripts/Data/ContractData.gd" id="1_d6c1i"]
+[ext_resource type="Script" uid="uid://dsl2sqtwrkuos" path="res://Scripts/Data/MoveData.gd" id="2_rlmd6"]
+[ext_resource type="Script" uid="uid://c0ind1qu7jee8" path="res://Scripts/Data/TraitData.gd" id="4_j65n6"]
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Gauge"
+gimmick_name = "The Monster"
+gimmick_description = "Unstoppable, silent beast"
+wrestler_id = 1008
+wrestler_class = Array[int]([1])
+wrestler_disposition = 2
+Age = 35
+wrestler_height = "7'1\""
+wrestler_weight = 400
+birthplace = 1
+north_american_country = 0
+strength = 90.0
+speed = 25.0
+stamina = 45.0
+skill = 40.0
+striking = 70.0
+charisma = 75.0
+global_popularity = 40.0
+pop_north_america = 84.0
+pop_europe = 40.0
+pop_asia = 35.0
+pop_africa = 40.0
+pop_oceania = 40.0
+metadata/_custom_type_script = "uid://dwj45ptt6d1qp"

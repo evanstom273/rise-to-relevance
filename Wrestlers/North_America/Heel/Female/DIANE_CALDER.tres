@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://jl8l27ua02up"]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+[ext_resource type="Script" uid="uid://7hab2jqqst0c" path="res://Scripts/Data/ContractData.gd" id="1_gqcst"]
+[ext_resource type="Script" uid="uid://dsl2sqtwrkuos" path="res://Scripts/Data/MoveData.gd" id="2_05bps"]
+[ext_resource type="Script" uid="uid://c0ind1qu7jee8" path="res://Scripts/Data/TraitData.gd" id="4_t51hy"]
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Diane Calder"
+gimmick_name = "Vindictive Veteran"
+gimmick_description = "Bitter and experienced rival"
+wrestler_id = 1036
+wrestler_class = Array[int]([2, 4])
+wrestler_gender = 2
+wrestler_division = 2
+wrestler_disposition = 2
+Age = 44
+wrestler_height = "5'8\""
+wrestler_weight = 155
+birthplace = 1
+north_american_country = 0
+strength = 55.0
+speed = 45.0
+stamina = 50.0
+skill = 78.0
+striking = 65.0
+charisma = 75.0
+global_popularity = 45.0
+pop_north_america = 75.0
+pop_europe = 60.0
+pop_asia = 45.0
+pop_africa = 40.0
+pop_oceania = 50.0
+metadata/_custom_type_script = "uid://dwj45ptt6d1qp"

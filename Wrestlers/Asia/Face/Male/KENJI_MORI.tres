@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://c2rs1ohbxlplp"]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Kenji Mori"
+gimmick_name = "Disciplined Striker"
+gimmick_description = "Martial arts specialist"
+wrestler_id = 1018
+wrestler_class = Array[int]([3])
+wrestler_gender = 1
+wrestler_division = 1
+wrestler_disposition = 1
+Age = 30
+wrestler_height = "6'0\""
+wrestler_weight = 205
+birthplace = 3
+asia_country = 0
+strength = 62.0
+speed = 60.0
+stamina = 60.0
+skill = 50.0
+striking = 75.0
+charisma = 55.0
+pop_north_america = 62.0
+pop_latin_america = 40.0
+pop_europe = 50.0
+pop_asia = 60.0
+pop_africa = 35.0
+pop_oceania = 50.0
+metadata/_custom_type_script = "uid://dwj45ptt6d1qp"
+

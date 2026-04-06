@@ -1,0 +1,47 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://b36yjc542gekn"]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+[ext_resource type="Script" uid="uid://7hab2jqqst0c" path="res://Scripts/Data/ContractData.gd" id="1_fbpl7"]
+[ext_resource type="Script" uid="uid://dsl2sqtwrkuos" path="res://Scripts/Data/MoveData.gd" id="2_dpnwb"]
+[ext_resource type="Script" uid="uid://c0ind1qu7jee8" path="res://Scripts/Data/TraitData.gd" id="4_hdm73"]
+
+[sub_resource type="Resource" id="Resource_fbpl7"]
+script = ExtResource("2_dpnwb")
+move_name = "Sharpshooter"
+move_type = 5
+class_preferrence = Array[int]([2])
+move_target_parts = Array[int]([6, 5, 2])
+required_attacker_position = 1
+required_target_position = 2
+resulting_attacker_position = 1
+resulting_target_position = 2
+is_submission = true
+move_impact = 3
+metadata/_custom_type_script = "uid://dsl2sqtwrkuos"
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Brett McLean"
+gimmick_name = "The Workhorse"
+gimmick_description = "High-energy technical specialist"
+wrestler_id = 1002
+wrestler_class = Array[int]([2])
+Age = 28
+wrestler_height = "6'1\""
+birthplace = 1
+north_american_country = 1
+strength = 55.0
+speed = 62.0
+stamina = 75.0
+skill = 75.0
+striking = 55.0
+charisma = 60.0
+global_popularity = 46.0
+pop_north_america = 80.0
+pop_south_america = null
+pop_europe = 65.0
+pop_asia = 50.0
+pop_africa = 30.0
+pop_oceania = 50.0
+move_set = Array[ExtResource("2_dpnwb")]([SubResource("Resource_fbpl7")])
+metadata/_custom_type_script = "uid://dwj45ptt6d1qp"

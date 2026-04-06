@@ -1,0 +1,49 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://bx3vse48elpki"]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+[ext_resource type="Script" uid="uid://7hab2jqqst0c" path="res://Scripts/Data/ContractData.gd" id="1_n3y8n"]
+[ext_resource type="Script" uid="uid://dsl2sqtwrkuos" path="res://Scripts/Data/MoveData.gd" id="2_ydkmf"]
+[ext_resource type="Script" uid="uid://c0ind1qu7jee8" path="res://Scripts/Data/TraitData.gd" id="4_c7gcf"]
+
+[sub_resource type="Resource" id="Resource_n3y8n"]
+script = ExtResource("2_ydkmf")
+move_name = "Sharpshooter"
+move_type = 5
+class_preferrence = Array[int]([2])
+move_target_parts = Array[int]([6, 5, 2])
+required_attacker_position = 1
+required_target_position = 2
+resulting_attacker_position = 1
+resulting_target_position = 2
+is_finisher = true
+is_submission = true
+move_impact = 3
+metadata/_custom_type_script = "uid://dsl2sqtwrkuos"
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Jay Maddox"
+gimmick_name = "The Franchise Ace"
+gimmick_description = "The corporate-approved poster boy"
+wrestler_id = 1001
+wrestler_class = Array[int]([1, 2])
+Age = 31
+wrestler_height = "6'4\""
+wrestler_weight = 255
+birthplace = 1
+north_american_country = 0
+strength = 72.0
+speed = 50.0
+stamina = 65.0
+skill = 65.0
+striking = 55.0
+charisma = 75.0
+global_popularity = 43.0
+pop_north_america = 88.0
+pop_south_america = null
+pop_europe = 55.0
+pop_asia = 40.0
+pop_africa = 30.0
+pop_oceania = 45.0
+move_set = Array[ExtResource("2_ydkmf")]([SubResource("Resource_n3y8n")])
+metadata/_custom_type_script = "uid://dwj45ptt6d1qp"

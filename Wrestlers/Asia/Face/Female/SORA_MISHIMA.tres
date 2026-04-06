@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://d3dcjkdld1uif"]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Sora Mishima"
+gimmick_name = "Gymnast Turned Pro"
+gimmick_description = "Agile high-flyer"
+wrestler_id = 1030
+wrestler_class = Array[int]([0])
+wrestler_gender = 2
+wrestler_division = 2
+wrestler_disposition = 1
+Age = 21
+wrestler_height = "5'3\""
+wrestler_weight = 120
+birthplace = 3
+asia_country = 0
+strength = 35.0
+speed = 80.0
+stamina = 55.0
+skill = 55.0
+striking = 45.0
+charisma = 70.0
+pop_north_america = 60.0
+pop_latin_america = 50.0
+pop_europe = 35.0
+pop_asia = 40.0
+pop_africa = 20.0
+pop_oceania = 45.0
+metadata/_custom_type_script = "uid://dwj45ptt6d1qp"
+

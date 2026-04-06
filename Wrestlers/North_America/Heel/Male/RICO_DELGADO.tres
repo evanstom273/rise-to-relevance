@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://7g54g0rr5fmk"]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Rico Delgado"
+gimmick_name = "Ego Flyer"
+gimmick_description = "Flashy, arrogant high-flyer"
+wrestler_id = 1023
+wrestler_class = Array[int]([0])
+wrestler_gender = 1
+wrestler_division = 1
+wrestler_disposition = 2
+Age = 25
+wrestler_height = "5'9\""
+wrestler_weight = 180
+birthplace = 1
+north_american_country = 2
+strength = 35.0
+speed = 75.0
+stamina = 55.0
+skill = 60.0
+striking = 50.0
+charisma = 70.0
+pop_north_america = 60.0
+pop_latin_america = 55.0
+pop_europe = 45.0
+pop_asia = 45.0
+pop_africa = 30.0
+pop_oceania = 45.0
+metadata/_custom_type_script = "uid://dwj45ptt6d1qp"
+
