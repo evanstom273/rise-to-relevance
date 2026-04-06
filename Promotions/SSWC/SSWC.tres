@@ -3,15 +3,16 @@
 [ext_resource type="Script" uid="uid://dur40byryil5w" path="res://Scripts/Data/PromotionData.gd" id="1"]
 [ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1_odei4"]
 [ext_resource type="Script" uid="uid://bsoy7pfr7publ" path="res://Scripts/Data/TitleData.gd" id="2_title_script"]
-[ext_resource type="Resource" uid="uid://c7ufdhwypfp2a" path="res://Promotions/SSWC/Titles/SSWC_MAIN_EVENT.tres" id="4_main"]
-[ext_resource type="Resource" uid="uid://cpt5hxcc5yvbf" path="res://Promotions/SSWC/Titles/SSWC_SINGLES.tres" id="5_singles"]
-[ext_resource type="Resource" uid="uid://cdvmtfcviiahb" path="res://Promotions/SSWC/Titles/SSWC_WOMENS.tres" id="6_womens"]
+[ext_resource type="Resource" path="res://Promotions/SSWC/Titles/SSWC_SOL_DORADO_CHAMPIONSHIP.tres" id="4_main"]
+[ext_resource type="Resource" path="res://Promotions/SSWC/Titles/SSWC_SOUTHERN_CROSS_TITLE.tres" id="5_singles"]
+[ext_resource type="Resource" path="res://Promotions/SSWC/Titles/SSWC_CAMPEONATO_DE_LUNA_Y_ESTRELLAS.tres" id="6_womens"]
 
 [resource]
 script = ExtResource("1")
 promotion_name = "Silver-Sun Wrestling Confederation"
 promotion_initials = "SSWC"
 promotion_id = 10
+preferred_styles = Array[int]([3, 1])
 home_region = 2
 south_american_country = 1
 titles = Array[ExtResource("2_title_script")]([ExtResource("4_main"), ExtResource("5_singles"), ExtResource("6_womens")])

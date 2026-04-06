@@ -3,18 +3,19 @@
 [ext_resource type="Script" uid="uid://dur40byryil5w" path="res://Scripts/Data/PromotionData.gd" id="1"]
 [ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1_xgi8u"]
 [ext_resource type="Script" uid="uid://bsoy7pfr7publ" path="res://Scripts/Data/TitleData.gd" id="2_title_script"]
-[ext_resource type="Resource" uid="uid://cmfevhjcei6jj" path="res://Promotions/IVW/Titles/IVW_MAIN_EVENT.tres" id="4_main"]
-[ext_resource type="Resource" uid="uid://bxqspbdcrxur8" path="res://Promotions/IVW/Titles/IVW_SINGLES.tres" id="5_singles"]
-[ext_resource type="Resource" uid="uid://px6nbvb5quyu" path="res://Promotions/IVW/Titles/IVW_WOMENS.tres" id="6_womens"]
+[ext_resource type="Resource" uid="uid://cmfevhjcei6jj" path="res://Promotions/IVW/Titles/IVW_KING_OF_EUROPE.tres" id="4_xgi8u"]
+[ext_resource type="Resource" uid="uid://bxqspbdcrxur8" path="res://Promotions/IVW/Titles/IVW_UNDERGROUND_CHAMPIONSHIP.tres" id="5_qxuq1"]
+[ext_resource type="Resource" uid="uid://px6nbvb5quyu" path="res://Promotions/IVW/Titles/IVW_QUEEN_OF_EUROPE.tres.tres" id="6_wj6a5"]
 
 [resource]
 script = ExtResource("1")
 promotion_name = "Iron & Velvet Wrestling"
 promotion_initials = "IVW"
 promotion_id = 6
+preferred_styles = Array[int]([3, 5])
 home_region = 6
 europe_country = 1
-titles = Array[ExtResource("2_title_script")]([ExtResource("4_main"), ExtResource("5_singles"), ExtResource("6_womens")])
+titles = Array[ExtResource("2_title_script")]([ExtResource("4_xgi8u"), ExtResource("5_qxuq1"), ExtResource("6_wj6a5")])
 global_popularity = 18.0
 pop_north_america = 25.0
 pop_latin_america = 5.0

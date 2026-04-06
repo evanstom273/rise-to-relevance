@@ -3,18 +3,19 @@
 [ext_resource type="Script" uid="uid://dur40byryil5w" path="res://Scripts/Data/PromotionData.gd" id="1"]
 [ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1_trxeg"]
 [ext_resource type="Script" uid="uid://bsoy7pfr7publ" path="res://Scripts/Data/TitleData.gd" id="3_fviii"]
-[ext_resource type="Resource" uid="uid://dvjw34qpvxfj4" path="res://Promotions/TCG/Titles/TCG_MAIN_EVENT.tres" id="4_main"]
-[ext_resource type="Resource" path="res://Promotions/TCG/Titles/TCG_SINGLES.tres" id="5_singles"]
-[ext_resource type="Resource" uid="uid://drowssykkx5no" path="res://Promotions/TCG/Titles/TCG_WOMENS.tres" id="6_womens"]
+[ext_resource type="Resource" uid="uid://dvjw34qpvxfj4" path="res://Promotions/TCG/Titles/TCG_HEAVYWEIGHT_TITLE.tres" id="4_hx2ib"]
+[ext_resource type="Resource" uid="uid://cdjld6wwd3a5q" path="res://Promotions/TCG/Titles/TCG_CROSS_PROVINCE_TITLE.tres" id="5_singles"]
+[ext_resource type="Resource" uid="uid://cth1wic4c7h37" path="res://Promotions/TCG/Titles/TCG_WOMENS_TITLE.tres" id="6_womens"]
 
 [resource]
 script = ExtResource("1")
 promotion_name = "Trans-Canada Grappling"
 promotion_initials = "TCG"
 promotion_id = 3
+preferred_styles = Array[int]([3, 2])
 home_region = 1
 north_american_country = 1
-titles = Array[ExtResource("3_fviii")]([ExtResource("4_main"), ExtResource("5_singles"), ExtResource("6_womens")])
+titles = Array[ExtResource("3_fviii")]([ExtResource("4_hx2ib"), ExtResource("5_singles"), ExtResource("6_womens")])
 global_popularity = 30.0
 pop_north_america = 65.0
 pop_latin_america = 15.0

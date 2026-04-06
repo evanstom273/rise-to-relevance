@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="PromotionResource" format=3 uid="uid://bc33we2gt8o0k"]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1_b6sbu"]
+[ext_resource type="Script" uid="uid://dur40byryil5w" path="res://Scripts/Data/PromotionData.gd" id="2_xycw7"]
+[ext_resource type="Script" uid="uid://bsoy7pfr7publ" path="res://Scripts/Data/TitleData.gd" id="3_wgyiw"]
+[ext_resource type="Resource" uid="uid://doaodav05a1vi" path="res://Promotions/Indie/Titles/WORLD_INDEPENDENT_CHAMPIONSHIP.tres" id="4_yvfm8"]
+[ext_resource type="Resource" uid="uid://sn2ivmi62dve" path="res://Promotions/Indie/Titles/OPEN_CHALLENGE_TITLE.tres" id="5_358uj"]
+[ext_resource type="Resource" uid="uid://7egj2v4aseug" path="res://Promotions/Indie/Titles/INDEPENDENT_WOMENS_GRAND_PRIX.tres" id="6_oor1r"]
+
+[resource]
+script = ExtResource("2_xycw7")
+promotion_name = "The Indie Scene"
+promotion_id = 1
+titles = Array[ExtResource("3_wgyiw")]([ExtResource("4_yvfm8"), ExtResource("5_358uj"), ExtResource("6_oor1r")])
+metadata/_custom_type_script = "uid://dur40byryil5w"

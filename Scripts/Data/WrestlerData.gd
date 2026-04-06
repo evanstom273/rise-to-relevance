@@ -2,7 +2,7 @@
 extends Resource
 class_name WrestlerResource
 
-enum WrestlerClass { NONE, HIGH_FLYER, POWERHOUSE, TECHNICIAN, STRIKER, HARDCORE }
+enum WrestlerClass { HIGH_FLYER, POWERHOUSE, TECHNICIAN, STRIKER, HARDCORE }
 enum Region { NONE, NORTH_AMERICA, SOUTH_AMERICA, ASIA, AFRICA, OCEANIA, EUROPE }
 enum NA_Countries { USA, CANADA, MEXICO, OTHER }
 enum SA_Countries { BRAZIL, ARGENTINA, CHILE, OTHER }
@@ -25,7 +25,7 @@ enum Division { MAIN_EVENT, SINGLES, WOMENS }
 @export var wrestler_gender = WrestlerGender.MALE
 @export var wrestler_division = Division.MAIN_EVENT
 @export var wrestler_disposition = WrestlerDisposition.FACE
-@export_range(16, 75) var Age: int = 25
+@export_range(16, 99) var Age: int = 25
 @export var wrestler_height: String = "6'0"
 @export var wrestler_weight: int = 220
 @export var wrestler_traits: Array[TraitsResource] = []

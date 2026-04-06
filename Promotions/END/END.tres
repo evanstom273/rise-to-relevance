@@ -3,15 +3,16 @@
 [ext_resource type="Script" uid="uid://dur40byryil5w" path="res://Scripts/Data/PromotionData.gd" id="1"]
 [ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1_10703"]
 [ext_resource type="Script" uid="uid://bsoy7pfr7publ" path="res://Scripts/Data/TitleData.gd" id="3_l7m80"]
-[ext_resource type="Resource" uid="uid://bylnr6ts5ao2y" path="res://Promotions/END/Titles/END_MAIN_EVENT.tres" id="4_main"]
-[ext_resource type="Resource" path="res://Promotions/END/Titles/END_SINGLES.tres" id="5_singles"]
-[ext_resource type="Resource" uid="uid://bdx54adcmfc5o" path="res://Promotions/END/Titles/END_WOMENS.tres" id="6_womens"]
+[ext_resource type="Resource" uid="uid://bylnr6ts5ao2y" path="res://Promotions/END/Titles/END_BRITISH_HEAVYWEIGHT_CHAMPIONSHIP.tres" id="4_main"]
+[ext_resource type="Resource" uid="uid://dyg6eq8d6adw5" path="res://Promotions/END/Titles/END_ATLAS_CHAMPIONSHIP.tres" id="5_singles"]
+[ext_resource type="Resource" uid="uid://1b2v1utr4uyo" path="res://Promotions/END/Titles/END_KNOCKOUTS_CHAMPIONSHIP.tres" id="6_womens"]
 
 [resource]
 script = ExtResource("1")
 promotion_name = "ENDEAVOUR"
 promotion_initials = "END"
 promotion_id = 5
+preferred_styles = Array[int]([3, 4])
 home_region = 6
 europe_country = 0
 titles = Array[ExtResource("3_l7m80")]([ExtResource("4_main"), ExtResource("5_singles"), ExtResource("6_womens")])

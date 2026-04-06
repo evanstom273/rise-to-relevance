@@ -3,18 +3,19 @@
 [ext_resource type="Script" uid="uid://dur40byryil5w" path="res://Scripts/Data/PromotionData.gd" id="1"]
 [ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1_vt7si"]
 [ext_resource type="Script" uid="uid://bsoy7pfr7publ" path="res://Scripts/Data/TitleData.gd" id="2_title_script"]
-[ext_resource type="Resource" path="res://Promotions/ZWA/Titles/ZWA_MAIN_EVENT.tres" id="4_main"]
-[ext_resource type="Resource" uid="uid://c6sn0u67nu55k" path="res://Promotions/ZWA/Titles/ZWA_SINGLES.tres" id="5_singles"]
-[ext_resource type="Resource" uid="uid://ctttnnpyodby5" path="res://Promotions/ZWA/Titles/ZWA_WOMENS.tres" id="6_womens"]
+[ext_resource type="Resource" uid="uid://2jxyfn3xe4pl" path="res://Promotions/ZWA/Titles/ZWA_SUPREME_CHAMPIONSHIP.tres" id="4_vt7si"]
+[ext_resource type="Resource" uid="uid://c6sn0u67nu55k" path="res://Promotions/ZWA/Titles/ARISE_BATTLE_CHAMPIONSHIP.tres" id="5_4tls7"]
+[ext_resource type="Resource" uid="uid://ctttnnpyodby5" path="res://Promotions/ZWA/Titles/ZWA_EMPRESS_CHAMPIONSHIP.tres" id="6_mvk7h"]
 
 [resource]
 script = ExtResource("1")
 promotion_name = "Zhongguo Wrestling Alliance"
 promotion_initials = "ZWA"
 promotion_id = 8
+preferred_styles = Array[int]([4, 2])
 home_region = 3
 asia_country = 1
-titles = Array[ExtResource("2_title_script")]([ExtResource("4_main"), ExtResource("5_singles"), ExtResource("6_womens")])
+titles = Array[ExtResource("2_title_script")]([ExtResource("4_vt7si"), ExtResource("5_4tls7"), ExtResource("6_mvk7h")])
 global_popularity = 22.0
 pop_north_america = 30.0
 pop_latin_america = 10.0

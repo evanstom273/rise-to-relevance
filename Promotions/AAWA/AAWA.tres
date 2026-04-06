@@ -3,23 +3,23 @@
 [ext_resource type="Script" uid="uid://dur40byryil5w" path="res://Scripts/Data/PromotionData.gd" id="1"]
 [ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1_2dr4f"]
 [ext_resource type="Script" uid="uid://bsoy7pfr7publ" path="res://Scripts/Data/TitleData.gd" id="3_mwy1h"]
-[ext_resource type="Resource" path="res://Promotions/AAWA/Titles/AAWA_MAIN_EVENT.tres" id="4_main"]
-[ext_resource type="Resource" path="res://Promotions/AAWA/Titles/AAWA_SINGLES.tres" id="5_singles"]
-[ext_resource type="Resource" path="res://Promotions/AAWA/Titles/AAWA_WOMENS.tres" id="6_womens"]
+[ext_resource type="Resource" path="res://Promotions/AAWA/Titles/AAWA_GIFT_OF_OSIRIS_CHAMPIONSHIP.tres" id="4_main"]
+[ext_resource type="Resource" uid="uid://cghs30lj1j1ye" path="res://Promotions/AAWA/Titles/AAWA_ETERNAL_CHAMPIONSHIP.tres" id="5_singles"]
+[ext_resource type="Resource" uid="uid://6rxeft02kqlh" path="res://Promotions/AAWA/Titles/AAWA_MATRIARCH_CHAMPIONSHIP.tres" id="6_womens"]
 
 [resource]
 script = ExtResource("1")
 promotion_name = "Ankh-Art Wrestling Association"
 promotion_initials = "AAWA"
 promotion_id = 11
-is_indie = false
-bank_balance = 0
+preferred_styles = Array[int]([3])
 home_region = 4
 africa_country = 2
-pop_north_america = 5
-pop_latin_america = 10
-pop_europe = 20
-pop_asia = 5
-pop_africa = 25
-pop_oceania = 5
 titles = Array[ExtResource("3_mwy1h")]([ExtResource("4_main"), ExtResource("5_singles"), ExtResource("6_womens")])
+global_popularity = 12.0
+pop_north_america = 5.0
+pop_latin_america = 10.0
+pop_europe = 20.0
+pop_asia = 5.0
+pop_africa = 25.0
+pop_oceania = 5.0

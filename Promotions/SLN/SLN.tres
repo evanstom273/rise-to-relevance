@@ -3,18 +3,19 @@
 [ext_resource type="Script" uid="uid://dur40byryil5w" path="res://Scripts/Data/PromotionData.gd" id="1"]
 [ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1_10703"]
 [ext_resource type="Script" uid="uid://bsoy7pfr7publ" path="res://Scripts/Data/TitleData.gd" id="3_l7m80"]
-[ext_resource type="Resource" uid="uid://bw5e6wnipyo3f" path="res://Promotions/SLN/Titles/SLN_MAIN_EVENT.tres" id="4_main"]
-[ext_resource type="Resource" uid="uid://cjohdq1us2rt6" path="res://Promotions/SLN/Titles/SLN_SINGLES.tres" id="5_singles"]
-[ext_resource type="Resource" uid="uid://dah5b7epo11rx" path="res://Promotions/SLN/Titles/SLN_WOMENS.tres" id="6_womens"]
+[ext_resource type="Resource" uid="uid://bw5e6wnipyo3f" path="res://Promotions/SLN/Titles/SLN_ANILLO_MUNDIAL.tres" id="4_ctmjm"]
+[ext_resource type="Resource" uid="uid://cjohdq1us2rt6" path="res://Promotions/SLN/Titles/SLN_CAMPEONATO_INTER_MEXICANO.tres" id="5_singles"]
+[ext_resource type="Resource" uid="uid://dah5b7epo11rx" path="res://Promotions/SLN/Titles/SLN_REINA_DEL_CIRCULO_CHAMPIONSHIP.tres" id="6_womens"]
 
 [resource]
 script = ExtResource("1")
-promotion_name = "Sociedad de Lucha Naciona"
+promotion_name = "Sociedad de Lucha Nacional"
 promotion_initials = "SLN"
 promotion_id = 4
+preferred_styles = Array[int]([1, 3])
 home_region = 1
 north_american_country = 2
-titles = Array[ExtResource("3_l7m80")]([ExtResource("4_main"), ExtResource("5_singles"), ExtResource("6_womens")])
+titles = Array[ExtResource("3_l7m80")]([ExtResource("4_ctmjm"), ExtResource("5_singles"), ExtResource("6_womens")])
 global_popularity = 27.0
 pop_north_america = 45.0
 pop_latin_america = 40.0
