@@ -11,6 +11,5 @@
 script = ExtResource("2_nplb8")
 promotion_name = "Indie"
 promotion_id = 1
-is_indie = true
 titles = Array[ExtResource("3_v4uwx")]([ExtResource("4_main"), ExtResource("5_singles"), ExtResource("6_womens")])
 metadata/_custom_type_script = "uid://dur40byryil5w"

@@ -41,9 +41,10 @@ enum Division { MAIN_EVENT, SINGLES, WOMENS }
 @export var oceania_country: Oceania_Countries = Oceania_Countries.OTHER
 
 # --- Contract ---
-@export_group("Contract")
+@export_group("Contract & Fiances")
 @export var current_contract: ContractResource
 @export var contract_history: Array[ContractResource] = []
+@export_range(-100000, 1000000, 1000) var bank_balance: float = 0
 
 # --- Stats ---
 @export_group("Physical Attributes")

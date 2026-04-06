@@ -6,7 +6,7 @@ class_name ContractResource
 @export var wrestler_id: int = 0 
 @export var promotion_id: int = 0
 @export_range(1, 52, 1) var length_weeks: float
-@export var salary: int
+@export_range(0, 25000, 1000) var salary: float
 @export var start_date: String
 @export var end_date: String
 

@@ -12,8 +12,14 @@ enum Africa_Countries { GHANA, NIGERIA, EGYPT, SOUTH_AFRICA, OTHER }
 
 @export_group("Promotion Info")
 @export var promotion_name = str("")
+@export var promotion_initials: String = ""
 @export var promotion_id: int = 0
-@export var is_indie: bool = false
+@export var preferred_styles: Array[WrestlerResource.WrestlerClass] = []
+@export var is_indie: bool = false:
+    set(value):
+        is_indie = value
+        notify_property_list_changed()
+@export_range(-100000, 1000000, 10000) var bank_balance: float = 0
 @export var home_region: Region = Region.NONE:
     set(value):
         home_region = value
@@ -62,4 +68,6 @@ func _validate_property(property: Dictionary):
     if property.name == "africa_country" and home_region != Region.AFRICA:
         property.usage = PROPERTY_USAGE_NO_EDITOR
     if property.name == "oceania_country" and home_region != Region.OCEANIA:
+        property.usage = PROPERTY_USAGE_NO_EDITOR
+    if property.name == "bank_balance" and is_indie != false:
         property.usage = PROPERTY_USAGE_NO_EDITOR

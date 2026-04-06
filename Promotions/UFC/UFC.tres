@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="PromotionResource" format=3 uid="uid://d1ybhdg6nx6nd"]
+
+[ext_resource type="Script" uid="uid://dur40byryil5w" path="res://Scripts/Data/PromotionData.gd" id="1"]
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1_mi3s5"]
+[ext_resource type="Script" uid="uid://bsoy7pfr7publ" path="res://Scripts/Data/TitleData.gd" id="2_title_script"]
+[ext_resource type="Resource" uid="uid://bcgqkdfft2rbo" path="res://Promotions/UFC/Titles/UFC_MAIN_EVENT.tres" id="4_main"]
+[ext_resource type="Resource" uid="uid://bo6nw4fdveqh5" path="res://Promotions/UFC/Titles/UFC_SINGLES.tres" id="5_singles"]
+[ext_resource type="Resource" uid="uid://yodqoivbul60" path="res://Promotions/UFC/Titles/UFC_WOMENS.tres" id="6_womens"]
+
+[resource]
+script = ExtResource("1")
+promotion_name = "Ula Fala Combat"
+promotion_initials = "UFC"
+promotion_id = 9
+home_region = 5
+oceania_country = 2
+titles = Array[ExtResource("2_title_script")]([ExtResource("4_main"), ExtResource("5_singles"), ExtResource("6_womens")])
+global_popularity = 18.0
+pop_north_america = 15.0
+pop_latin_america = 5.0
+pop_europe = 10.0
+pop_asia = 20.0
+pop_africa = 5.0
+pop_oceania = 50.0

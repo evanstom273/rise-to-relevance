@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="PromotionResource" format=3 uid="uid://cey6e8eyqqld"]
+
+[ext_resource type="Script" uid="uid://dur40byryil5w" path="res://Scripts/Data/PromotionData.gd" id="1"]
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1_b16yc"]
+[ext_resource type="Script" uid="uid://bsoy7pfr7publ" path="res://Scripts/Data/TitleData.gd" id="3_rhm2u"]
+[ext_resource type="Resource" uid="uid://dp4igct2eba0j" path="res://Promotions/VWF/Titles/VWF_MAIN_EVENT.tres" id="4_main"]
+[ext_resource type="Resource" path="res://Promotions/VWF/Titles/VWF_SINGLES.tres" id="5_singles"]
+[ext_resource type="Resource" path="res://Promotions/VWF/Titles/VWF_WOMENS.tres" id="6_womens"]
+
+[resource]
+script = ExtResource("1")
+promotion_name = "Vanguard Wrestling Federation"
+promotion_initials = "VWF"
+promotion_id = 2
+home_region = 1
+north_american_country = 0
+titles = Array[ExtResource("3_rhm2u")]([ExtResource("4_main"), ExtResource("5_singles"), ExtResource("6_womens")])
+global_popularity = 59.0
+pop_north_america = 95.0
+pop_latin_america = 40.0
+pop_europe = 75.0
+pop_asia = 65.0
+pop_africa = 25.0
+pop_oceania = 55.0

@@ -1,7 +1,0 @@
-[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dekxoigl6m3v4"]
-
-[ext_resource type="Script" uid="uid://dsl2sqtwrkuos" path="res://Scripts/Data/MoveData.gd" id="1_sag31"]
-
-[resource]
-script = ExtResource("1_sag31")
-metadata/_custom_type_script = "uid://dsl2sqtwrkuos"
