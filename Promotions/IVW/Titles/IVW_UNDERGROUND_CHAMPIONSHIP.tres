@@ -6,4 +6,4 @@
 script = ExtResource("1_clcwv")
 title_name = "IVW Underground Championship"
 promotion_id = 6
-division = 2
+gender = 1

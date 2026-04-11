@@ -1,6 +1,9 @@
 [gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://e1ndeed47xki"]
 
 [ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+[ext_resource type="Script" uid="uid://7hab2jqqst0c" path="res://Scripts/Data/ContractData.gd" id="1_qtc7t"]
+[ext_resource type="Script" uid="uid://dsl2sqtwrkuos" path="res://Scripts/Data/MoveData.gd" id="2_uu344"]
+[ext_resource type="Script" uid="uid://c0ind1qu7jee8" path="res://Scripts/Data/TraitData.gd" id="4_37udw"]
 
 [resource]
 script = ExtResource("1")
@@ -9,9 +12,6 @@ gimmick_name = "Legacy Hero"
 gimmick_description = "Second-generation star"
 wrestler_id = 1017
 wrestler_class = Array[int]([2])
-wrestler_gender = 1
-wrestler_division = 1
-wrestler_disposition = 1
 Age = 23
 wrestler_height = "6'3\""
 wrestler_weight = 235
@@ -23,11 +23,10 @@ stamina = 65.0
 skill = 60.0
 striking = 50.0
 charisma = 70.0
+global_popularity = 37.0
 pop_north_america = 65.0
-pop_latin_america = 45.0
 pop_europe = 50.0
 pop_asia = 35.0
 pop_africa = 25.0
 pop_oceania = 45.0
 metadata/_custom_type_script = "uid://dwj45ptt6d1qp"
-

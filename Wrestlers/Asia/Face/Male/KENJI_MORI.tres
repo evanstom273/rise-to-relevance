@@ -1,6 +1,9 @@
 [gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://c2rs1ohbxlplp"]
 
 [ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+[ext_resource type="Script" uid="uid://7hab2jqqst0c" path="res://Scripts/Data/ContractData.gd" id="1_7w62t"]
+[ext_resource type="Script" uid="uid://dsl2sqtwrkuos" path="res://Scripts/Data/MoveData.gd" id="2_2je65"]
+[ext_resource type="Script" uid="uid://c0ind1qu7jee8" path="res://Scripts/Data/TraitData.gd" id="4_5jmsk"]
 
 [resource]
 script = ExtResource("1")
@@ -9,9 +12,6 @@ gimmick_name = "Disciplined Striker"
 gimmick_description = "Martial arts specialist"
 wrestler_id = 1018
 wrestler_class = Array[int]([3])
-wrestler_gender = 1
-wrestler_division = 1
-wrestler_disposition = 1
 Age = 30
 wrestler_height = "6'0\""
 wrestler_weight = 205
@@ -23,11 +23,10 @@ stamina = 60.0
 skill = 50.0
 striking = 75.0
 charisma = 55.0
+global_popularity = 43.0
 pop_north_america = 62.0
-pop_latin_america = 40.0
 pop_europe = 50.0
 pop_asia = 60.0
 pop_africa = 35.0
 pop_oceania = 50.0
 metadata/_custom_type_script = "uid://dwj45ptt6d1qp"
-

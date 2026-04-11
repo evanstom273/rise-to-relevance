@@ -6,4 +6,4 @@
 script = ExtResource("1")
 title_name = "ZWA Supreme Championship"
 promotion_id = 8
-division = 1
+gender = 1

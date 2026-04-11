@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://da5tbpp5cj2n4"]
 
 [ext_resource type="StyleBox" uid="uid://bppp0is500y8m" path="res://UI/Themes/Theme1.tres" id="1_wjc8d"]
-[ext_resource type="Resource" uid="uid://dsxryoagd0g47" path="res://Wrestlers/North_America/Heel/Male/DEZ_RAINES.tres" id="2_dlk5x"]
-[ext_resource type="Resource" uid="uid://c2rs1ohbxlplp" path="res://Wrestlers/Asia/Face/Male/KENJI_MORI.tres" id="3_dlk5x"]
+[ext_resource type="Resource" uid="uid://bx3vse48elpki" path="res://Wrestlers/North_America/Face/Male/JAMIE_MERCER.tres" id="2_6fv0a"]
+[ext_resource type="Resource" uid="uid://d4inobqodvv4h" path="res://Wrestlers/North_America/Face/Male/SCOTT_GAUTHIER.tres" id="3_6fv0a"]
 [ext_resource type="Script" uid="uid://c3avv2lkprr8o" path="res://Scripts/Match/match_screen.gd" id="3_match_screen"]
 
 [sub_resource type="Gradient" id="Gradient_o3qbn"]
@@ -22,7 +22,7 @@ border_width_left = 4
 border_width_top = 4
 border_width_right = 4
 border_width_bottom = 4
-border_color = Color(0.92156863, 0.2901961, 0.2901961, 1)
+border_color = Color(0.2509804, 0.6392157, 1, 1)
 corner_radius_top_left = 20
 corner_radius_top_right = 20
 corner_radius_bottom_right = 20
@@ -35,7 +35,7 @@ border_width_left = 4
 border_width_top = 4
 border_width_right = 4
 border_width_bottom = 4
-border_color = Color(0.92156863, 0.2901961, 0.2901961, 1)
+border_color = Color(0.2509804, 0.6392157, 1, 1)
 corner_radius_top_left = 20
 corner_radius_top_right = 20
 corner_radius_bottom_right = 20
@@ -47,7 +47,7 @@ content_margin_left = 2.0
 content_margin_top = 2.0
 content_margin_right = 2.0
 content_margin_bottom = 2.0
-bg_color = Color(0.92156863, 0.2901961, 0.2901961, 0.55)
+bg_color = Color(0.2509804, 0.6392157, 1, 0.55)
 corner_radius_top_left = 6
 corner_radius_top_right = 6
 corner_radius_bottom_right = 6
@@ -59,7 +59,7 @@ content_margin_left = 2.0
 content_margin_top = 2.0
 content_margin_right = 2.0
 content_margin_bottom = 2.0
-bg_color = Color(0.92156863, 0.2901961, 0.2901961, 0.55)
+bg_color = Color(0.2509804, 0.6392157, 1, 0.55)
 corner_radius_top_left = 6
 corner_radius_top_right = 6
 corner_radius_bottom_right = 6
@@ -71,7 +71,7 @@ content_margin_left = 2.0
 content_margin_top = 2.0
 content_margin_right = 2.0
 content_margin_bottom = 2.0
-bg_color = Color(0.92156863, 0.2901961, 0.2901961, 0.55)
+bg_color = Color(0.2509804, 0.6392157, 1, 0.55)
 corner_radius_top_left = 6
 corner_radius_top_right = 6
 corner_radius_bottom_right = 6
@@ -83,7 +83,7 @@ content_margin_left = 2.0
 content_margin_top = 2.0
 content_margin_right = 2.0
 content_margin_bottom = 2.0
-bg_color = Color(0.92156863, 0.2901961, 0.2901961, 0.55)
+bg_color = Color(0.2509804, 0.6392157, 1, 0.55)
 corner_radius_top_left = 6
 corner_radius_top_right = 6
 corner_radius_bottom_right = 6
@@ -95,7 +95,7 @@ content_margin_left = 2.0
 content_margin_top = 2.0
 content_margin_right = 2.0
 content_margin_bottom = 2.0
-bg_color = Color(0.92156863, 0.2901961, 0.2901961, 0.55)
+bg_color = Color(0.2509804, 0.6392157, 1, 0.55)
 corner_radius_top_left = 6
 corner_radius_top_right = 6
 corner_radius_bottom_right = 6
@@ -107,7 +107,7 @@ content_margin_left = 2.0
 content_margin_top = 2.0
 content_margin_right = 2.0
 content_margin_bottom = 2.0
-bg_color = Color(0.92156863, 0.2901961, 0.2901961, 0.55)
+bg_color = Color(0.2509804, 0.6392157, 1, 0.55)
 corner_radius_top_left = 6
 corner_radius_top_right = 6
 corner_radius_bottom_right = 6
@@ -120,7 +120,7 @@ border_width_left = 4
 border_width_top = 4
 border_width_right = 4
 border_width_bottom = 4
-border_color = Color(0.92156863, 0.2901961, 0.2901961, 1)
+border_color = Color(0.2509804, 0.6392157, 1, 1)
 corner_radius_top_left = 20
 corner_radius_top_right = 20
 corner_radius_bottom_right = 20
@@ -246,8 +246,8 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("3_match_screen")
-player_wrestler = ExtResource("2_dlk5x")
-opponent_wrestler = ExtResource("3_dlk5x")
+player_wrestler = ExtResource("2_6fv0a")
+opponent_wrestler = ExtResource("3_6fv0a")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=428488866]
 layout_mode = 1
@@ -315,11 +315,11 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 size_flags_stretch_ratio = 1.2
-theme_override_colors/font_color = Color(0.92156863, 0.2901961, 0.2901961, 1)
+theme_override_colors/font_color = Color(0.2509804, 0.6392157, 1, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 2
 theme_override_font_sizes/font_size = 20
-text = "(h) DEZ RAINES"
+text = "(f) JAMIE MERCER"
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -336,7 +336,7 @@ unique_name_in_owner = true
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "Hardcore/Striker"
+text = "Technician/High Flyer"
 horizontal_alignment = 1
 vertical_alignment = 1
 uppercase = true
@@ -434,7 +434,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "Street Thug"
+text = "The Franchise Ace"
 uppercase = true
 
 [node name="HSeparator" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2" unique_id=1096401423]
@@ -452,7 +452,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = " - Hardened brawler"
+text = " - The corporate-approved poster boy"
 autowrap_mode = 3
 uppercase = true
 
@@ -525,7 +525,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "6'3\""
+text = "5'11\""
 uppercase = true
 
 [node name="HSeparator5" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer2" unique_id=429399174]
@@ -549,7 +549,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "250lbs"
+text = "205lbs"
 uppercase = true
 
 [node name="VSeparator" type="VSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer" unique_id=1372358478]
@@ -581,7 +581,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "70.0"
+text = "50.0"
 uppercase = true
 
 [node name="HSeparator" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer" unique_id=319021685]
@@ -605,7 +605,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "45.0"
+text = "70.0"
 uppercase = true
 
 [node name="HSeparator2" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer" unique_id=1371337624]
@@ -629,7 +629,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "65.0"
+text = "70.0"
 uppercase = true
 
 [node name="HSeparator3" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer" unique_id=1231742538]
@@ -653,7 +653,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "75.0"
+text = "65.0"
 uppercase = true
 
 [node name="HSeparator4" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer" unique_id=2105942003]
@@ -677,7 +677,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "50.0"
+text = "75.0"
 uppercase = true
 
 [node name="HSeparator5" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer" unique_id=128704463]
@@ -701,7 +701,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "65.0"
+text = "75.0"
 uppercase = true
 
 [node name="HSeparator6" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer/PlayerStats/HBoxContainer/VBoxContainer" unique_id=1853115701]
@@ -725,7 +725,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "36"
+text = "31"
 uppercase = true
 
 [node name="HSeparator3" type="HSeparator" parent="MarginContainer/HBoxContainer/PlayerInfo/MarginContainer/VBoxContainer/PlayerStatsBox/MarginContainer/VBoxContainer" unique_id=641594765]
@@ -967,7 +967,7 @@ theme_override_colors/font_color = Color(0.2509804, 0.6392157, 1, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 2
 theme_override_font_sizes/font_size = 20
-text = "(f) KENJI MORI"
+text = "(f) SCOTT GAUTHIER"
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -984,7 +984,7 @@ unique_name_in_owner = true
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "Striker"
+text = "Striker/Powerhouse"
 horizontal_alignment = 1
 vertical_alignment = 1
 uppercase = true
@@ -1022,7 +1022,7 @@ unique_name_in_owner = true
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "VWF"
+text = "TCG"
 horizontal_alignment = 1
 vertical_alignment = 1
 uppercase = true
@@ -1082,7 +1082,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "Disciplined Striker"
+text = "The Prairie Lion"
 uppercase = true
 
 [node name="HSeparator" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2" unique_id=1762087394]
@@ -1100,7 +1100,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = " - Martial arts specialist"
+text = " - Stiff brawler with a never-say-die attitude"
 autowrap_mode = 3
 uppercase = true
 
@@ -1125,7 +1125,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "Asia"
+text = "North America"
 uppercase = true
 
 [node name="HSeparator3" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2" unique_id=787389421]
@@ -1149,7 +1149,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "Japan"
+text = "Canada"
 uppercase = true
 
 [node name="HSeparator4" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2" unique_id=1334329780]
@@ -1173,7 +1173,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "6'0\""
+text = "6'2\""
 uppercase = true
 
 [node name="HSeparator5" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer2" unique_id=759375236]
@@ -1197,7 +1197,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "205lbs"
+text = "245lbs"
 uppercase = true
 
 [node name="VSeparator" type="VSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer" unique_id=649496080]
@@ -1229,7 +1229,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "62.0"
+text = "75.0"
 uppercase = true
 
 [node name="HSeparator" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer" unique_id=771069613]
@@ -1253,7 +1253,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "60.0"
+text = "50.0"
 uppercase = true
 
 [node name="HSeparator2" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer" unique_id=398556471]
@@ -1277,7 +1277,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "60.0"
+text = "80.0"
 uppercase = true
 
 [node name="HSeparator3" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer" unique_id=235501432]
@@ -1301,7 +1301,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "75.0"
+text = "80.0"
 uppercase = true
 
 [node name="HSeparator4" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer" unique_id=1698423609]
@@ -1325,7 +1325,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "50.0"
+text = "60.0"
 uppercase = true
 
 [node name="HSeparator5" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer" unique_id=1528806649]
@@ -1349,7 +1349,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "55.0"
+text = "65.0"
 uppercase = true
 
 [node name="HSeparator6" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer/OpponentStats/HBoxContainer/VBoxContainer" unique_id=508612841]
@@ -1373,7 +1373,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 15
-text = "30"
+text = "29"
 uppercase = true
 
 [node name="HSeparator3" type="HSeparator" parent="MarginContainer/HBoxContainer/OpponentInfo/MarginContainer/VBoxContainer/OpponentStatsBox/MarginContainer/VBoxContainer" unique_id=2085932781]

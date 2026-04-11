@@ -6,4 +6,4 @@
 script = ExtResource("1")
 title_name = "AAWA Matriarch Championship"
 promotion_id = 11
-division = 3
+gender = 2

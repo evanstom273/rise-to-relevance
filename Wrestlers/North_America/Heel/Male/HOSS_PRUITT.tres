@@ -1,6 +1,9 @@
 [gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://dw28tm2alpmm"]
 
 [ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+[ext_resource type="Script" uid="uid://7hab2jqqst0c" path="res://Scripts/Data/ContractData.gd" id="1_q33vj"]
+[ext_resource type="Script" uid="uid://dsl2sqtwrkuos" path="res://Scripts/Data/MoveData.gd" id="2_xm7lo"]
+[ext_resource type="Script" uid="uid://c0ind1qu7jee8" path="res://Scripts/Data/TraitData.gd" id="4_k6iu7"]
 
 [resource]
 script = ExtResource("1")
@@ -9,8 +12,6 @@ gimmick_name = "The Bully"
 gimmick_description = "Mean-spirited powerhouse"
 wrestler_id = 1025
 wrestler_class = Array[int]([1])
-wrestler_gender = 1
-wrestler_division = 1
 wrestler_disposition = 2
 Age = 31
 wrestler_height = "6'7\""
@@ -23,11 +24,10 @@ stamina = 55.0
 skill = 40.0
 striking = 65.0
 charisma = 65.0
+global_popularity = 35.0
 pop_north_america = 60.0
-pop_latin_america = 35.0
 pop_europe = 40.0
 pop_asia = 30.0
 pop_africa = 45.0
 pop_oceania = 35.0
 metadata/_custom_type_script = "uid://dwj45ptt6d1qp"
-

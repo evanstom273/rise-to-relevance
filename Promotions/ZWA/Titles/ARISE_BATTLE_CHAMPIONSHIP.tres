@@ -6,4 +6,4 @@
 script = ExtResource("1_780kj")
 title_name = "A.R.I.S.E. Battle Championship"
 promotion_id = 8
-division = 2
+gender = 1

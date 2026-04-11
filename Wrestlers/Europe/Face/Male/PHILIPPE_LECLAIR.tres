@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Philippe Leclair"
+gimmick_name = "The Mat General"
+gimmick_description = "Scientific technical expert"
+wrestler_id = 2016
+wrestler_class = Array[int]([2])
+wrestler_gender = 1
+wrestler_disposition = 1
+Age = 45
+wrestler_height = "6'0\""
+wrestler_weight = 225
+birthplace = 6
+europe_country = 2
+strength = 55.0
+speed = 40.0
+stamina = 60.0
+skill = 90.0
+striking = 50.0
+charisma = 60.0
+pop_north_america = 62.0
+pop_south_america = 45.0
+pop_europe = 75.0
+pop_asia = 50.0
+pop_africa = 40.0
+pop_oceania = 45.0

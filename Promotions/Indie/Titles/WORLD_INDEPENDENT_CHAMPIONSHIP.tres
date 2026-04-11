@@ -6,4 +6,4 @@
 script = ExtResource("1_addym")
 title_name = "World Independent Championship"
 promotion_id = 1
-division = 1
+gender = 1

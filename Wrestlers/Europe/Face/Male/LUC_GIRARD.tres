@@ -1,6 +1,9 @@
 [gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://n1ugq418etup"]
 
 [ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+[ext_resource type="Script" uid="uid://7hab2jqqst0c" path="res://Scripts/Data/ContractData.gd" id="1_bq8ho"]
+[ext_resource type="Script" uid="uid://dsl2sqtwrkuos" path="res://Scripts/Data/MoveData.gd" id="2_auanw"]
+[ext_resource type="Script" uid="uid://c0ind1qu7jee8" path="res://Scripts/Data/TraitData.gd" id="4_j40pm"]
 
 [resource]
 script = ExtResource("1")
@@ -9,9 +12,6 @@ gimmick_name = "Technical Hybrid"
 gimmick_description = "Modern \"catch\" wrestler"
 wrestler_id = 1020
 wrestler_class = Array[int]([2, 3])
-wrestler_gender = 1
-wrestler_division = 1
-wrestler_disposition = 1
 Age = 32
 wrestler_height = "6'2\""
 wrestler_weight = 225
@@ -23,11 +23,10 @@ stamina = 70.0
 skill = 65.0
 striking = 60.0
 charisma = 55.0
+global_popularity = 42.0
 pop_north_america = 55.0
-pop_latin_america = 45.0
 pop_europe = 60.0
 pop_asia = 55.0
 pop_africa = 35.0
 pop_oceania = 45.0
 metadata/_custom_type_script = "uid://dwj45ptt6d1qp"
-

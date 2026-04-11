@@ -1,6 +1,9 @@
 [gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://bxc1uenyg2r4s"]
 
 [ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+[ext_resource type="Script" uid="uid://7hab2jqqst0c" path="res://Scripts/Data/ContractData.gd" id="1_450dp"]
+[ext_resource type="Script" uid="uid://dsl2sqtwrkuos" path="res://Scripts/Data/MoveData.gd" id="2_ql2sh"]
+[ext_resource type="Script" uid="uid://c0ind1qu7jee8" path="res://Scripts/Data/TraitData.gd" id="4_8svh1"]
 
 [resource]
 script = ExtResource("1")
@@ -10,7 +13,6 @@ gimmick_description = "Arrogant royalty persona"
 wrestler_id = 1033
 wrestler_class = Array[int]([2])
 wrestler_gender = 2
-wrestler_division = 2
 wrestler_disposition = 2
 Age = 27
 wrestler_height = "5'9\""
@@ -23,11 +25,10 @@ stamina = 65.0
 skill = 75.0
 striking = 50.0
 charisma = 80.0
+global_popularity = 37.0
 pop_north_america = 70.0
-pop_latin_america = 40.0
 pop_europe = 50.0
 pop_asia = 35.0
 pop_africa = 25.0
 pop_oceania = 40.0
 metadata/_custom_type_script = "uid://dwj45ptt6d1qp"
-

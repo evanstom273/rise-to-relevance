@@ -19,9 +19,21 @@ extends Control
         if is_node_ready():
             _update_player()
 
+@export var player_promotion: PromotionResource:
+    set(value):
+        player_promotion = value
+        if is_node_ready():
+            _update_player()
+
 @export var opponent_wrestler: WrestlerResource:
     set(value):
         opponent_wrestler = value
+        if is_node_ready():
+            _update_opponent()
+
+@export var opponent_promotion: PromotionResource:
+    set(value):
+        opponent_promotion = value
         if is_node_ready():
             _update_opponent()
 
@@ -42,6 +54,9 @@ extends Control
 @export var champion_name_color: Color = Color(0.83137256, 0.6862745, 0.21568628, 1.0)
 @export var accent_dim_color: Color = Color(0.72, 0.72, 0.72, 1.0)
 
+var _promotion_cache_by_id: Dictionary = {}
+var _promotion_cache_ready: bool = false
+
 func _ready() -> void:
     _update_player()
     _update_opponent()
@@ -55,6 +70,16 @@ func _update_player() -> void:
 
     %PlayerName.text = _format_display_name(wrestler, player_is_champion)
     _apply_name_style(%PlayerName, accent)
+
+    var promotion = player_promotion
+    if not promotion:
+        promotion = _find_promotion_for_wrestler(wrestler)
+        
+    if promotion:
+        %PlayerPromotion.text = _format_promotion_label(promotion)
+    else:
+        %PlayerPromotion.text = "FREE AGENT"
+
     %PlayerClass.text = _format_class(wrestler.wrestler_class)
     %PlayerGender.text = _format_gender(int(wrestler.wrestler_gender))
     %PlayerGimmick.text = wrestler.gimmick_name
@@ -101,6 +126,16 @@ func _update_opponent() -> void:
 
     %OpponentName.text = _format_display_name(wrestler, opponent_is_champion)
     _apply_name_style(%OpponentName, accent)
+
+    var promotion = opponent_promotion
+    if not promotion:
+        promotion = _find_promotion_for_wrestler(wrestler)
+        
+    if promotion:
+        %OpponentPromotion.text = _format_promotion_label(promotion)
+    else:
+        %OpponentPromotion.text = "FREE AGENT"
+
     %OpponentClass.text = _format_class(wrestler.wrestler_class)
     %OpponentGender.text = _format_gender(int(wrestler.wrestler_gender))
     %OpponentGimmick.text = wrestler.gimmick_name
@@ -273,3 +308,72 @@ func _format_gimmick_description(description: String) -> String:
 
 func _format_gender(gender_value: int) -> String:
     return _format_enum_name(WrestlerResource.WrestlerGender, gender_value)
+
+func _format_promotion_label(promotion: PromotionResource) -> String:
+    if int(promotion.promotion_id) == 1:
+        return "FREE AGENT"
+    var initials := str(promotion.promotion_initials).strip_edges()
+    if not initials.is_empty():
+        return initials
+    return str(promotion.promotion_name).strip_edges()
+
+func _get_promotion_cache() -> void:
+    if _promotion_cache_ready:
+        return
+
+    _promotion_cache_by_id = {}
+
+    var dir = DirAccess.open("res://Promotions")
+    if not dir:
+        _promotion_cache_ready = true
+        return
+
+    dir.list_dir_begin()
+    var folder = dir.get_next()
+    while folder != "":
+        if dir.current_is_dir() and not folder.begins_with("."):
+            var folder_path = "res://Promotions/" + folder
+            var fdir = DirAccess.open(folder_path)
+            if fdir:
+                fdir.list_dir_begin()
+                var file_name = fdir.get_next()
+                while file_name != "":
+                    if file_name.ends_with(".tres") and not fdir.current_is_dir():
+                        var res = ResourceLoader.load(folder_path + "/" + file_name)
+                        if res is PromotionResource:
+                            var promo = res as PromotionResource
+                            _promotion_cache_by_id[int(promo.promotion_id)] = promo
+                    file_name = fdir.get_next()
+        folder = dir.get_next()
+
+    _promotion_cache_ready = true
+
+func _find_promotion_by_id(promotion_id: int) -> PromotionResource:
+    if promotion_id <= 0:
+        return null
+
+    _get_promotion_cache()
+    return _promotion_cache_by_id.get(promotion_id, null)
+
+func _find_promotion_for_wrestler(wrestler: WrestlerResource) -> PromotionResource:
+    if not wrestler:
+        return null
+
+    var contract := wrestler.current_contract
+    if contract and int(contract.promotion_id) > 0:
+        var promo_from_contract = _find_promotion_by_id(int(contract.promotion_id))
+        if promo_from_contract:
+            return promo_from_contract
+
+    _get_promotion_cache()
+    for promo in _promotion_cache_by_id.values():
+        if promo == null:
+            continue
+        var mens = promo.mens_division
+        if mens and wrestler in mens:
+            return promo
+        var womens = promo.womens_division
+        if womens and wrestler in womens:
+            return promo
+
+    return null

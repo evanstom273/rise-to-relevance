@@ -6,4 +6,4 @@
 script = ExtResource("1_2xrxg")
 title_name = "A.R.I.S.E. Openweight Championship"
 promotion_id = 7
-division = 2
+gender = 1

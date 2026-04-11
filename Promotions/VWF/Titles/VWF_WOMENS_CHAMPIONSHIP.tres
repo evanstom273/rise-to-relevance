@@ -6,4 +6,4 @@
 script = ExtResource("1_te4ad")
 title_name = "VWF Women's Championship"
 promotion_id = 2
-division = 3
+gender = 2

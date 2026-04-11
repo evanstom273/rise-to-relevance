@@ -6,6 +6,34 @@
 [ext_resource type="Resource" uid="uid://dvjw34qpvxfj4" path="res://Promotions/TCG/Titles/TCG_HEAVYWEIGHT_TITLE.tres" id="4_hx2ib"]
 [ext_resource type="Resource" uid="uid://cdjld6wwd3a5q" path="res://Promotions/TCG/Titles/TCG_CROSS_PROVINCE_TITLE.tres" id="5_singles"]
 [ext_resource type="Resource" uid="uid://cth1wic4c7h37" path="res://Promotions/TCG/Titles/TCG_WOMENS_TITLE.tres" id="6_womens"]
+[ext_resource type="Resource" path="res://Wrestlers/North_America/Face/Male/SCOTT_GAUTHIER.tres" id="7_scott"]
+[ext_resource type="Resource" path="res://Wrestlers/North_America/Face/Male/KYLE_STERLING.tres" id="8_kyle"]
+[ext_resource type="Resource" path="res://Wrestlers/North_America/Face/Male/MARK_BENNETT.tres" id="9_mark"]
+[ext_resource type="Resource" path="res://Wrestlers/North_America/Face/Male/JIM_LEBLANC.tres" id="10_jim"]
+[ext_resource type="Resource" path="res://Wrestlers/North_America/Face/Male/WYATT_TRAVIS.tres" id="11_wyatt"]
+[ext_resource type="Resource" path="res://Wrestlers/Europe/Face/Male/ARTHUR_PENHALIGON.tres" id="12_arthur"]
+[ext_resource type="Resource" path="res://Wrestlers/North_America/Face/Male/SAM_BURNS.tres" id="13_sam"]
+[ext_resource type="Resource" path="res://Wrestlers/Europe/Heel/Male/HANS_MUELLER.tres" id="14_hans"]
+[ext_resource type="Resource" path="res://Wrestlers/North_America/Heel/Male/RICHARD_HAYES.tres" id="15_richard"]
+[ext_resource type="Resource" path="res://Wrestlers/North_America/Heel/Male/TERRY_WALSH.tres" id="16_terry"]
+[ext_resource type="Resource" path="res://Wrestlers/Asia/Heel/Male/HIROSHI_SATO.tres" id="17_hiroshi"]
+[ext_resource type="Resource" path="res://Wrestlers/North_America/Heel/Male/LUC_BOUCHARD.tres" id="18_luc_bouchard"]
+[ext_resource type="Resource" path="res://Wrestlers/North_America/Heel/Male/ROBERT_VANCE.tres" id="19_robert"]
+[ext_resource type="Resource" path="res://Wrestlers/Europe/Heel/Male/NIGEL_THORNE.tres" id="20_nigel"]
+[ext_resource type="Resource" path="res://Wrestlers/North_America/Face/Male/JACE_WEST.tres" id="21_jace"]
+[ext_resource type="Resource" path="res://Wrestlers/Europe/Face/Male/PHILIPPE_LECLAIR.tres" id="22_philippe"]
+[ext_resource type="Resource" path="res://Wrestlers/North_America/Face/Male/BRETT_DOUGLAS.tres" id="23_brett"]
+[ext_resource type="Resource" path="res://Wrestlers/Oceania/Face/Male/BRUCE_ANGUS.tres" id="24_bruce"]
+[ext_resource type="Resource" path="res://Wrestlers/North_America/Face/Male/JORDAN_GRAY.tres" id="25_jordan"]
+[ext_resource type="Resource" path="res://Wrestlers/Oceania/Face/Male/MALOSI_SIKOA.tres" id="26_malosi"]
+[ext_resource type="Resource" path="res://Wrestlers/North_America/Face/Male/BRAD_TAYLOR.tres" id="27_brad"]
+[ext_resource type="Resource" path="res://Wrestlers/North_America/Heel/Male/CLAY_MASON.tres" id="28_clay"]
+[ext_resource type="Resource" path="res://Wrestlers/North_America/Heel/Male/ELIAS_BLACKWOOD.tres" id="29_elias"]
+[ext_resource type="Resource" path="res://Wrestlers/Europe/Heel/Male/BJORN_SORENSEN.tres" id="30_bjorn"]
+[ext_resource type="Resource" path="res://Wrestlers/North_America/Heel/Male/GARY_GAUTHIER.tres" id="31_gary"]
+[ext_resource type="Resource" path="res://Wrestlers/North_America/Heel/Male/THOMAS_BLACK.tres" id="32_thomas"]
+[ext_resource type="Resource" path="res://Wrestlers/North_America/Heel/Male/TYLER_COLE.tres" id="33_tyler"]
+[ext_resource type="Resource" path="res://Wrestlers/Europe/Heel/Male/FRIEDRICH_HOFFMAN.tres" id="34_friedrich"]
 
 [resource]
 script = ExtResource("1")
@@ -15,10 +43,10 @@ promotion_id = 3
 preferred_styles = Array[int]([3, 2])
 home_region = 1
 north_american_country = 1
+mens_division = Array[ExtResource("1_trxeg")]([ExtResource("7_scott"), ExtResource("8_kyle"), ExtResource("9_mark"), ExtResource("10_jim"), ExtResource("11_wyatt"), ExtResource("12_arthur"), ExtResource("13_sam"), ExtResource("14_hans"), ExtResource("15_richard"), ExtResource("16_terry"), ExtResource("17_hiroshi"), ExtResource("18_luc_bouchard"), ExtResource("19_robert"), ExtResource("20_nigel"), ExtResource("21_jace"), ExtResource("22_philippe"), ExtResource("23_brett"), ExtResource("24_bruce"), ExtResource("25_jordan"), ExtResource("26_malosi"), ExtResource("27_brad"), ExtResource("28_clay"), ExtResource("29_elias"), ExtResource("30_bjorn"), ExtResource("31_gary"), ExtResource("32_thomas"), ExtResource("33_tyler"), ExtResource("34_friedrich")])
 titles = Array[ExtResource("3_fviii")]([ExtResource("4_hx2ib"), ExtResource("5_singles"), ExtResource("6_womens")])
-global_popularity = 30.0
+global_popularity = 28.0
 pop_north_america = 65.0
-pop_latin_america = 15.0
 pop_europe = 30.0
 pop_asia = 45.0
 pop_africa = 5.0

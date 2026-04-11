@@ -10,6 +10,7 @@
 [resource]
 script = ExtResource("2_xycw7")
 promotion_name = "The Indie Scene"
+promotion_initials = "TIS"
 promotion_id = 1
 titles = Array[ExtResource("3_wgyiw")]([ExtResource("4_yvfm8"), ExtResource("5_358uj"), ExtResource("6_oor1r")])
 metadata/_custom_type_script = "uid://dur40byryil5w"

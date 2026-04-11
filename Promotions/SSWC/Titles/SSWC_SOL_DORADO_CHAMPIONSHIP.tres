@@ -6,4 +6,4 @@
 script = ExtResource("1")
 title_name = "SSWC Sol Dorado Championship"
 promotion_id = 10
-division = 1
+gender = 1

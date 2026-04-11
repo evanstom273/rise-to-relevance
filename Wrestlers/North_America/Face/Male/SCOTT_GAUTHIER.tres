@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://d4inobqodvv4h"]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+[ext_resource type="Script" uid="uid://7hab2jqqst0c" path="res://Scripts/Data/ContractData.gd" id="1_te7sd"]
+[ext_resource type="Script" uid="uid://dsl2sqtwrkuos" path="res://Scripts/Data/MoveData.gd" id="2_ifsu8"]
+[ext_resource type="Script" uid="uid://c0ind1qu7jee8" path="res://Scripts/Data/TraitData.gd" id="4_ow11m"]
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Scott Gauthier"
+gimmick_name = "The Prairie Lion"
+gimmick_description = "Stiff brawler with a never-say-die attitude"
+wrestler_id = 2001
+wrestler_class = Array[int]([3, 1])
+Age = 29
+wrestler_height = "6'2\""
+wrestler_weight = 245
+birthplace = 1
+north_american_country = 1
+strength = 75.0
+speed = 50.0
+stamina = 80.0
+skill = 60.0
+striking = 80.0
+charisma = 65.0
+global_popularity = 44.0
+pop_north_america = 75.0
+pop_south_america = 30.0
+pop_europe = 45.0
+pop_asia = 55.0
+pop_africa = 20.0
+pop_oceania = 40.0

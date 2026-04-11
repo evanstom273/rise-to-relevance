@@ -6,4 +6,4 @@
 script = ExtResource("1_35yco")
 title_name = "Open-Challenge Title"
 promotion_id = 1
-division = 2
+gender = 1

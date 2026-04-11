@@ -6,4 +6,4 @@
 script = ExtResource("1")
 title_name = "UFC Siamupini a Tamaitai"
 promotion_id = 9
-division = 3
+gender = 2

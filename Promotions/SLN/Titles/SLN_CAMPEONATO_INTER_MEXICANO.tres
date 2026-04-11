@@ -6,4 +6,4 @@
 script = ExtResource("1")
 title_name = "SLN Campeonato Inter Mexicano"
 promotion_id = 4
-division = 2
+gender = 1

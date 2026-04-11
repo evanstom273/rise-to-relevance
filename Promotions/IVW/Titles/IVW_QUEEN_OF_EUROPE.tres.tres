@@ -6,4 +6,4 @@
 script = ExtResource("1_6ayfk")
 title_name = "IVW Queen of Europe"
 promotion_id = 6
-division = 3
+gender = 2

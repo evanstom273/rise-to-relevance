@@ -10,6 +10,7 @@ enum MoveType { NONE,
                 ROPE_REBOUND, 
                 GROUNDED,                      
                 SPRINGBOARD, 
+                CORNER,
                 DIVING_STANDING, 
                 DIVING_GROUNDED                 
                 }

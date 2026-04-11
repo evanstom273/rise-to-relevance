@@ -6,4 +6,4 @@
 script = ExtResource("1")
 title_name = "FWGP Joshi Championship"
 promotion_id = 7
-division = 3
+gender = 2

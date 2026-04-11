@@ -6,4 +6,4 @@
 script = ExtResource("1_vult3")
 title_name = "SLN Anillo Mundial"
 promotion_id = 4
-division = 1
+gender = 1

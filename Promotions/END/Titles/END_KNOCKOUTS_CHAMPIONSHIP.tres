@@ -6,4 +6,4 @@
 script = ExtResource("1")
 title_name = "ENDEAVOUR Knockouts Championship"
 promotion_id = 5
-division = 3
+gender = 2

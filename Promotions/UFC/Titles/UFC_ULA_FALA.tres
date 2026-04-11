@@ -6,4 +6,4 @@
 script = ExtResource("1")
 title_name = "The Ula Fala"
 promotion_id = 9
-division = 1
+gender = 1

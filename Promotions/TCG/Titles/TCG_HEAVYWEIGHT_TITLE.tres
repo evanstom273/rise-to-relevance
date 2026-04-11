@@ -6,4 +6,4 @@
 script = ExtResource("1")
 title_name = "TCG Heavyweight Title"
 promotion_id = 3
-division = 1
+gender = 1

@@ -6,4 +6,4 @@
 script = ExtResource("1")
 title_name = "FWGP Global Championship"
 promotion_id = 7
-division = 1
+gender = 1

@@ -16,7 +16,6 @@ enum WrestlerGender { NONE, MALE, FEMALE }
 enum WrestlerDisposition { NONE, FACE, HEEL }
 
 enum WrestlerStatus {NONE, ACTIVE, INJURED, RETIRED }
-enum Division { MAIN_EVENT, SINGLES, WOMENS }
 
 @export_group("Personal Info")
 @export var wrestler_name = str("")
@@ -25,7 +24,6 @@ enum Division { MAIN_EVENT, SINGLES, WOMENS }
 @export var wrestler_id: int = 0
 @export var wrestler_class: Array[WrestlerClass] = []
 @export var wrestler_gender = WrestlerGender.MALE
-@export var wrestler_division = Division.MAIN_EVENT
 @export var wrestler_disposition = WrestlerDisposition.FACE
 @export_range(16, 99) var Age: int = 25
 @export var wrestler_height: String = "6'0"

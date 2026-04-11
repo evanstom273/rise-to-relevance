@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Richard Hayes"
+gimmick_name = "The Sadistic Teacher"
+gimmick_description = "Old-school mat-wrestling torturer"
+wrestler_id = 2009
+wrestler_class = Array[int]([2])
+wrestler_gender = 1
+wrestler_disposition = 2
+Age = 50
+wrestler_height = "6'2\""
+wrestler_weight = 240
+birthplace = 1
+north_american_country = 0
+strength = 65.0
+speed = 35.0
+stamina = 65.0
+skill = 92.0
+striking = 65.0
+charisma = 75.0
+pop_north_america = 85.0
+pop_south_america = 50.0
+pop_europe = 65.0
+pop_asia = 55.0
+pop_africa = 45.0
+pop_oceania = 55.0

@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Wyatt Travis"
+gimmick_name = "The High-Plains Drifter"
+gimmick_description = "A stoic, traveling cowboy"
+wrestler_id = 2005
+wrestler_class = Array[int]([1, 3])
+wrestler_gender = 1
+wrestler_disposition = 1
+Age = 32
+wrestler_height = "6'4\""
+wrestler_weight = 250
+birthplace = 1
+north_american_country = 0
+strength = 80.0
+speed = 45.0
+stamina = 70.0
+skill = 55.0
+striking = 70.0
+charisma = 75.0
+pop_north_america = 68.0
+pop_south_america = 45.0
+pop_europe = 40.0
+pop_asia = 35.0
+pop_africa = 30.0
+pop_oceania = 50.0

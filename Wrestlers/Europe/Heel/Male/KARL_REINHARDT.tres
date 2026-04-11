@@ -1,6 +1,9 @@
 [gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://c0iauy13t3f2o"]
 
 [ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+[ext_resource type="Script" uid="uid://7hab2jqqst0c" path="res://Scripts/Data/ContractData.gd" id="1_dcprw"]
+[ext_resource type="Script" uid="uid://dsl2sqtwrkuos" path="res://Scripts/Data/MoveData.gd" id="2_7u4il"]
+[ext_resource type="Script" uid="uid://c0ind1qu7jee8" path="res://Scripts/Data/TraitData.gd" id="4_4pwyq"]
 
 [resource]
 script = ExtResource("1")
@@ -9,8 +12,6 @@ gimmick_name = "The Cunning Strategist"
 gimmick_description = "Cold, manipulative veteran"
 wrestler_id = 1009
 wrestler_class = Array[int]([2, 4])
-wrestler_gender = 1
-wrestler_division = 0
 wrestler_disposition = 2
 Age = 40
 wrestler_height = "6'0\""
@@ -23,11 +24,10 @@ stamina = 70.0
 skill = 75.0
 striking = 65.0
 charisma = 70.0
+global_popularity = 43.0
 pop_north_america = 75.0
-pop_latin_america = 40.0
 pop_europe = 60.0
 pop_asia = 50.0
 pop_africa = 30.0
 pop_oceania = 45.0
 metadata/_custom_type_script = "uid://dwj45ptt6d1qp"
-

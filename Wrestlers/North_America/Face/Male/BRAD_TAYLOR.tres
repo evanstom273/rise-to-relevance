@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3 uid="uid://dr3oyn20uu3i0"]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+[ext_resource type="Script" uid="uid://7hab2jqqst0c" path="res://Scripts/Data/ContractData.gd" id="1_n3s0u"]
+[ext_resource type="Script" uid="uid://dsl2sqtwrkuos" path="res://Scripts/Data/MoveData.gd" id="2_7a41i"]
+[ext_resource type="Script" uid="uid://c0ind1qu7jee8" path="res://Scripts/Data/TraitData.gd" id="4_momae"]
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Brad Taylor"
+gimmick_name = "The Blue-Chipper"
+gimmick_description = "Clean-cut athletic hero"
+wrestler_id = 2021
+wrestler_class = Array[int]([1, 2])
+wrestler_height = "6'3\""
+wrestler_weight = 245
+birthplace = 1
+north_american_country = 0
+strength = 75.0
+speed = 60.0
+stamina = 70.0
+skill = 65.0
+striking = 55.0
+charisma = 72.0
+global_popularity = 42.0
+pop_north_america = 64.0
+pop_south_america = 40.0
+pop_europe = 45.0
+pop_asia = 35.0
+pop_africa = 25.0
+pop_oceania = 40.0

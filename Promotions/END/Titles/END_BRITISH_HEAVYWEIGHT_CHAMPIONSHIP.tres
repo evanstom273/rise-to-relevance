@@ -6,4 +6,4 @@
 script = ExtResource("1")
 title_name = "British Heavyweight Championship"
 promotion_id = 5
-division = 1
+gender = 1

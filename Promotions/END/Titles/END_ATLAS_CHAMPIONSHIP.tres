@@ -6,4 +6,4 @@
 script = ExtResource("1")
 title_name = "ENDEAVOUR Atlas Championship"
 promotion_id = 5
-division = 2
+gender = 1

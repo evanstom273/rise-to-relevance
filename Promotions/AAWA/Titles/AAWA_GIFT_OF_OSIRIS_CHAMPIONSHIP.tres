@@ -6,4 +6,4 @@
 script = ExtResource("1")
 title_name = "AAWA Gift of Osiris Championship"
 promotion_id = 11
-division = 1
+gender = 1

@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1_kvvgi"]
 [ext_resource type="Script" uid="uid://bsoy7pfr7publ" path="res://Scripts/Data/TitleData.gd" id="2_title_script"]
 [ext_resource type="Resource" uid="uid://b4u3nxli6yuds" path="res://Promotions/FWGP/Titles/FWGP_GLOBAL_CHAMPIONSHIP.tres" id="4_main"]
-[ext_resource type="Resource" uid="uid://o4cemx2004yd" path="res://Promotions/FWGP/Titles/FWGP_ARISE_OPENWEIGHT_CHAMPIONSHIP.tres" id="5_singles"]
+[ext_resource type="Resource" uid="uid://bysb00htxkryn" path="res://Promotions/FWGP/Titles/ARISE_OPENWEIGHT_CHAMPIONSHIP.tres" id="5_singles"]
 [ext_resource type="Resource" uid="uid://bjtdfi1av8sa2" path="res://Promotions/FWGP/Titles/FWGP_JOSHI_CHAMPIONSHIP.tres" id="6_womens"]
 
 [resource]

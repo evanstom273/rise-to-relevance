@@ -13,7 +13,6 @@ gimmick_description = "Bitter and experienced rival"
 wrestler_id = 1036
 wrestler_class = Array[int]([2, 4])
 wrestler_gender = 2
-wrestler_division = 2
 wrestler_disposition = 2
 Age = 44
 wrestler_height = "5'8\""

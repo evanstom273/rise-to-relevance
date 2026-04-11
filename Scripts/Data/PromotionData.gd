@@ -32,8 +32,7 @@ enum Africa_Countries { GHANA, NIGERIA, EGYPT, SOUTH_AFRICA, OTHER }
 @export var oceania_country: Oceania_Countries = Oceania_Countries.OTHER
 
 @export_group("Roster")
-@export var main_event_division: Array[WrestlerResource]
-@export var singles_division: Array[WrestlerResource]
+@export var mens_division: Array[WrestlerResource]
 @export var womens_division: Array[WrestlerResource]
 @export var titles: Array[TitleResource]
 

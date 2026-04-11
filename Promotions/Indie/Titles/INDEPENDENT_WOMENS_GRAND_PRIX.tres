@@ -6,4 +6,4 @@
 script = ExtResource("1_6vwgx")
 title_name = "Independent Women's Grand Prix"
 promotion_id = 1
-division = 3
+gender = 2

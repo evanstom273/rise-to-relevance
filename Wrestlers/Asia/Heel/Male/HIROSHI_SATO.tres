@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Hiroshi Sato"
+gimmick_name = "The Foreign Menace"
+gimmick_description = "Elite striker from the East"
+wrestler_id = 2011
+wrestler_class = Array[int]([3, 2])
+wrestler_gender = 1
+wrestler_disposition = 2
+Age = 31
+wrestler_height = "6'0\""
+wrestler_weight = 220
+birthplace = 3
+asia_country = 0
+strength = 60.0
+speed = 68.0
+stamina = 75.0
+skill = 82.0
+striking = 88.0
+charisma = 55.0
+pop_north_america = 60.0
+pop_south_america = 35.0
+pop_europe = 55.0
+pop_asia = 85.0
+pop_africa = 35.0
+pop_oceania = 50.0

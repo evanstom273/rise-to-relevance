@@ -12,7 +12,6 @@ gimmick_name = "Dark Striker"
 gimmick_description = "Brooding striking master"
 wrestler_id = 1026
 wrestler_class = Array[int]([3, 2])
-wrestler_division = 1
 wrestler_disposition = 2
 Age = 41
 wrestler_height = "6'2\""

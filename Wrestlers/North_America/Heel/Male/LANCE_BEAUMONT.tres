@@ -12,7 +12,6 @@ gimmick_name = "Narcissist"
 gimmick_description = "Vain, self-obsessed star"
 wrestler_id = 1028
 wrestler_class = Array[int]([2])
-wrestler_division = 1
 wrestler_disposition = 2
 Age = 26
 wrestler_height = "6'1\""

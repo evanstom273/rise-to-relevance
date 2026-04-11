@@ -6,4 +6,4 @@
 script = ExtResource("1")
 title_name = "SSWC Campeonato de Luna y estrellas"
 promotion_id = 10
-division = 3
+gender = 2

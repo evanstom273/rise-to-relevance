@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Tyler Cole"
+gimmick_name = "The Cocky Rebel"
+gimmick_description = "Arrogant athletic high-flyer"
+wrestler_id = 2027
+wrestler_class = Array[int]([0, 3])
+wrestler_gender = 1
+wrestler_disposition = 2
+Age = 22
+wrestler_height = "5'10\""
+wrestler_weight = 190
+birthplace = 1
+north_american_country = 1
+strength = 45.0
+speed = 75.0
+stamina = 60.0
+skill = 65.0
+striking = 70.0
+charisma = 75.0
+pop_north_america = 58.0
+pop_south_america = 45.0
+pop_europe = 45.0
+pop_asia = 40.0
+pop_africa = 25.0
+pop_oceania = 45.0

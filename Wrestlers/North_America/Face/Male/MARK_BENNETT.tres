@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="WrestlerResource" format=3]
+
+[ext_resource type="Script" uid="uid://dwj45ptt6d1qp" path="res://Scripts/Data/WrestlerData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+wrestler_name = "Mark Bennett"
+gimmick_name = "The Olympic Hopeful"
+gimmick_description = "Former amateur wrestling standout"
+wrestler_id = 2003
+wrestler_class = Array[int]([2, 1])
+wrestler_gender = 1
+wrestler_disposition = 1
+Age = 24
+wrestler_height = "6'1\""
+wrestler_weight = 235
+birthplace = 1
+north_american_country = 0
+strength = 72.0
+speed = 60.0
+stamina = 75.0
+skill = 85.0
+striking = 45.0
+charisma = 60.0
+pop_north_america = 65.0
+pop_south_america = 35.0
+pop_europe = 50.0
+pop_asia = 40.0
+pop_africa = 25.0
+pop_oceania = 35.0
